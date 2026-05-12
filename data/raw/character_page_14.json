@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=15",
+  "prev": "https://rickandmortyapi.com/api/character?page=13"
+ },
+ "results": [
+  {
+   "id": 261,
+   "name": "Photography Cyborg",
+   "status": "unknown",
+   "species": "Robot",
+   "gender": "Male"
+  },
+  {
+   "id": 262,
+   "name": "Photography Raptor",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 263,
+   "name": "Pibbles Bodyguard",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 264,
+   "name": "Pichael Thompson",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 265,
+   "name": "Pickle Rick",
+   "status": "Alive",
+   "species": "unknown",
+   "gender": "Male"
+  },
+  {
+   "id": 266,
+   "name": "Piece of Toast",
+   "status": "Alive",
+   "species": "unknown",
+   "gender": "Genderless"
+  },
+  {
+   "id": 267,
+   "name": "Plumber Rick",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 268,
+   "name": "Poncho",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 269,
+   "name": "Presidentress of The Mega Gargantuans",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Female"
+  },
+  {
+   "id": 270,
+   "name": "Prince Nebulon",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 271,
+   "name": "Principal Vagina",
+   "status": "Alive",
+   "species": "Cronenberg",
+   "gender": "Male"
+  },
+  {
+   "id": 272,
+   "name": "Principal Vagina",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 273,
+   "name": "Purge Planet Ruler",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 274,
+   "name": "Quantum Rick",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 275,
+   "name": "Randy Dicknose",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 276,
+   "name": "Rat Boss",
+   "status": "Dead",
+   "species": "Animal",
+   "gender": "unknown"
+  },
+  {
+   "id": 277,
+   "name": "Real Fake Doors Salesman",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 278,
+   "name": "Regional Manager Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 279,
+   "name": "Regular Legs",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 280,
+   "name": "Reverse Giraffe",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  }
+ ]
+}

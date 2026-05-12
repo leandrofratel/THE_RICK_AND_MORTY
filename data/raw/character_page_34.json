@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=35",
+  "prev": "https://rickandmortyapi.com/api/character?page=33"
+ },
+ "results": [
+  {
+   "id": 661,
+   "name": "Morty’s Girlfriend",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 662,
+   "name": "Gaia",
+   "status": "Alive",
+   "species": "unknown",
+   "gender": "Female"
+  },
+  {
+   "id": 663,
+   "name": "Reggie",
+   "status": "Dead",
+   "species": "Mythological Creature",
+   "gender": "Male"
+  },
+  {
+   "id": 664,
+   "name": "Ticktock",
+   "status": "unknown",
+   "species": "Humanoid",
+   "gender": "Genderless"
+  },
+  {
+   "id": 665,
+   "name": "Florflock",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Genderless"
+  },
+  {
+   "id": 666,
+   "name": "Squeeb",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Genderless"
+  },
+  {
+   "id": 667,
+   "name": "Defiance Beth",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 668,
+   "name": "Defiance Squanchette",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Female"
+  },
+  {
+   "id": 669,
+   "name": "Defiance Doctor",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 670,
+   "name": "New Improved Galactic Federation Guard",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 671,
+   "name": "New Improved Galactic Federation Guard",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 672,
+   "name": "Mr. Nimbus",
+   "status": "Alive",
+   "species": "Mythological Creature",
+   "gender": "Male"
+  },
+  {
+   "id": 673,
+   "name": "Hoovy",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 674,
+   "name": "Bova",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Female"
+  },
+  {
+   "id": 675,
+   "name": "Japheth",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 676,
+   "name": "Japheth's Middle Son",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 677,
+   "name": "Japheth's Eldest Son",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 678,
+   "name": "Japheth's Youngest Son",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 679,
+   "name": "Japheth's Grandson",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 680,
+   "name": "Adam",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Male"
+  }
+ ]
+}

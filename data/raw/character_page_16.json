@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=17",
+  "prev": "https://rickandmortyapi.com/api/character?page=15"
+ },
+ "results": [
+  {
+   "id": 301,
+   "name": "Ron Benson",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 302,
+   "name": "Ruben",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 303,
+   "name": "Samantha",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 304,
+   "name": "Scary Brandon",
+   "status": "Alive",
+   "species": "Mythological Creature",
+   "gender": "Male"
+  },
+  {
+   "id": 305,
+   "name": "Scary Glenn",
+   "status": "Alive",
+   "species": "Mythological Creature",
+   "gender": "Male"
+  },
+  {
+   "id": 306,
+   "name": "Scary Terry",
+   "status": "Alive",
+   "species": "Mythological Creature",
+   "gender": "Male"
+  },
+  {
+   "id": 307,
+   "name": "Scroopy Noopers",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 308,
+   "name": "Scropon",
+   "status": "unknown",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 309,
+   "name": "Scrotian",
+   "status": "Alive",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 310,
+   "name": "Self-Congratulatory Jerry",
+   "status": "unknown",
+   "species": "Mythological Creature",
+   "gender": "Male"
+  },
+  {
+   "id": 311,
+   "name": "Shimshamian",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 312,
+   "name": "Shlaammi",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 313,
+   "name": "Shleemypants",
+   "status": "Alive",
+   "species": "unknown",
+   "gender": "Male"
+  },
+  {
+   "id": 314,
+   "name": "Shmlamantha Shmlicelli",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 315,
+   "name": "Shmlangela Shmlobinson-Shmlower",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 316,
+   "name": "Shmlona Shmlobinson",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 317,
+   "name": "Shmlonathan Shmlower",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 318,
+   "name": "Shmlony Shmlicelli",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 319,
+   "name": "Shmooglite Runner",
+   "status": "unknown",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 320,
+   "name": "Shnoopy Bloopers",
+   "status": "unknown",
+   "species": "Alien",
+   "gender": "Male"
+  }
+ ]
+}

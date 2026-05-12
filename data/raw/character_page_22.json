@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=23",
+  "prev": "https://rickandmortyapi.com/api/character?page=21"
+ },
+ "results": [
+  {
+   "id": 421,
+   "name": "Rich Plutonian",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Female"
+  },
+  {
+   "id": 422,
+   "name": "Rich Plutonian",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 423,
+   "name": "Synthetic Laser Eels",
+   "status": "Alive",
+   "species": "Animal",
+   "gender": "unknown"
+  },
+  {
+   "id": 424,
+   "name": "Pizza-person",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 425,
+   "name": "Pizza-person",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 426,
+   "name": "Greasy Grandma",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 427,
+   "name": "Phone-person",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 428,
+   "name": "Phone-person",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 429,
+   "name": "Chair-person",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 430,
+   "name": "Chair-person",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 431,
+   "name": "Chair-homeless",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 432,
+   "name": "Chair-waiter",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 433,
+   "name": "Doopidoo",
+   "status": "Alive",
+   "species": "Animal",
+   "gender": "unknown"
+  },
+  {
+   "id": 434,
+   "name": "Super Weird Rick",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 435,
+   "name": "Pripudlian",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 436,
+   "name": "Giant Testicle Monster",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 437,
+   "name": "Michael",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 438,
+   "name": "Michael's Lawyer",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 439,
+   "name": "Veterinary",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 440,
+   "name": "Veterinary Nurse",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  }
+ ]
+}

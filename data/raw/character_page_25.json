@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=26",
+  "prev": "https://rickandmortyapi.com/api/character?page=24"
+ },
+ "results": [
+  {
+   "id": 481,
+   "name": "Retired General Rick",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 482,
+   "name": "Secret Service Rick",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 483,
+   "name": "Steve Jobs Rick",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 484,
+   "name": "Sheik Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 485,
+   "name": "Modern Rick",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 486,
+   "name": "Tan Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 487,
+   "name": "Visor Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 488,
+   "name": "Colonial Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 489,
+   "name": "P-Coat Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 490,
+   "name": "Chang",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 491,
+   "name": "Dr. Eleanor Arroway",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 492,
+   "name": "Varrix",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 493,
+   "name": "Secretary of the Interior",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 494,
+   "name": "Crystal Poacher",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 495,
+   "name": "Crystal Poacher",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 496,
+   "name": "Crystal Poacher",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 497,
+   "name": "Hologram Rick",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 498,
+   "name": "Fascist Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 499,
+   "name": "Fascist Morty",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 500,
+   "name": "Fascist Mr. President",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  }
+ ]
+}

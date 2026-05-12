@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=3",
+  "prev": "https://rickandmortyapi.com/api/character?page=1"
+ },
+ "results": [
+  {
+   "id": 21,
+   "name": "Aqua Morty",
+   "status": "unknown",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 22,
+   "name": "Aqua Rick",
+   "status": "unknown",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 23,
+   "name": "Arcade Alien",
+   "status": "unknown",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 24,
+   "name": "Armagheadon",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 25,
+   "name": "Armothy",
+   "status": "Dead",
+   "species": "unknown",
+   "gender": "Male"
+  },
+  {
+   "id": 26,
+   "name": "Arthricia",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Female"
+  },
+  {
+   "id": 27,
+   "name": "Artist Morty",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 28,
+   "name": "Attila Starwar",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 29,
+   "name": "Baby Legs",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 30,
+   "name": "Baby Poopybutthole",
+   "status": "Alive",
+   "species": "Poopybutthole",
+   "gender": "Male"
+  },
+  {
+   "id": 31,
+   "name": "Baby Wizard",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 32,
+   "name": "Bearded Lady",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Female"
+  },
+  {
+   "id": 33,
+   "name": "Beebo",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 34,
+   "name": "Benjamin",
+   "status": "Alive",
+   "species": "Poopybutthole",
+   "gender": "Male"
+  },
+  {
+   "id": 35,
+   "name": "Bepisian",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 36,
+   "name": "Beta-Seven",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 37,
+   "name": "Beth Sanchez",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 38,
+   "name": "Beth Smith",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 39,
+   "name": "Beth Smith",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 40,
+   "name": "Beth's Mytholog",
+   "status": "Dead",
+   "species": "Mythological Creature",
+   "gender": "Female"
+  }
+ ]
+}

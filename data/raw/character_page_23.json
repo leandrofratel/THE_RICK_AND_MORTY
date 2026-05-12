@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=24",
+  "prev": "https://rickandmortyapi.com/api/character?page=22"
+ },
+ "results": [
+  {
+   "id": 441,
+   "name": "Bearded Jerry",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 442,
+   "name": "Shaved Head Jerry",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 443,
+   "name": "Tank Top Jerry",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 444,
+   "name": "Pink Polo Shirt Jerry",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 445,
+   "name": "Jerryboree Keeper",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Female"
+  },
+  {
+   "id": 446,
+   "name": "Jerryboree Receptionist",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 447,
+   "name": "Anchor Gear",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 448,
+   "name": "Gear Cop",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 449,
+   "name": "Roy's Mum",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 450,
+   "name": "Roy's Wife",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 451,
+   "name": "Roy's Son",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 452,
+   "name": "Simon",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 453,
+   "name": "Vampire Master's Assistant",
+   "status": "Alive",
+   "species": "Mythological Creature",
+   "gender": "Male"
+  },
+  {
+   "id": 454,
+   "name": "Arbolian Mentirososian",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 455,
+   "name": "St. Gloopy Noops Nurse",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Female"
+  },
+  {
+   "id": 456,
+   "name": "Nano Doctor",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 457,
+   "name": "Funny Songs Presenter",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 458,
+   "name": "Tax Attorney",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 459,
+   "name": "Butthole Ice Cream Guy",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 460,
+   "name": "Traflorkian Journalist",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  }
+ ]
+}

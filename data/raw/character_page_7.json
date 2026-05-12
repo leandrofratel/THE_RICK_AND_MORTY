@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=8",
+  "prev": "https://rickandmortyapi.com/api/character?page=6"
+ },
+ "results": [
+  {
+   "id": 121,
+   "name": "Eyehole Man",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 122,
+   "name": "Fart",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 123,
+   "name": "Fat Morty",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 124,
+   "name": "Father Bob",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 125,
+   "name": "Flansian",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 126,
+   "name": "Fleeb",
+   "status": "unknown",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 127,
+   "name": "Frank Palicky",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 128,
+   "name": "Frankenstein's Monster",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 129,
+   "name": "Fulgora",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 130,
+   "name": "Galactic Federation President",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 131,
+   "name": "Gar Gloonch",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 132,
+   "name": "Gar's Mytholog",
+   "status": "Dead",
+   "species": "Mythological Creature",
+   "gender": "Male"
+  },
+  {
+   "id": 133,
+   "name": "Garblovian",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 134,
+   "name": "Garmanarnar",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 135,
+   "name": "Garment District Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 136,
+   "name": "Gazorpazorpfield",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 137,
+   "name": "Gene",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 138,
+   "name": "General Nathan",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 139,
+   "name": "General Store Owner",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 140,
+   "name": "Genital Washer",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  }
+ ]
+}

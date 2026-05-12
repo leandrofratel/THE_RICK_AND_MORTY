@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=40",
+  "prev": "https://rickandmortyapi.com/api/character?page=38"
+ },
+ "results": [
+  {
+   "id": 761,
+   "name": "Turkey President Curtis",
+   "status": "Alive",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 762,
+   "name": "Martínez",
+   "status": "Dead",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 763,
+   "name": "Marvin",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 764,
+   "name": "Jackey",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 765,
+   "name": "Native Alien",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 766,
+   "name": "Pilgrim Alien",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 767,
+   "name": "President Turkey",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 768,
+   "name": "Mary-Lou",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 769,
+   "name": "Big Fat rick",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 770,
+   "name": "Hothead Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 771,
+   "name": "Ricardo Montoya",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 772,
+   "name": "Wrap-it-up Little Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 773,
+   "name": "Yo-yo Rick",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 774,
+   "name": "Voiceoverian",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 775,
+   "name": "Voiceoverian",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 776,
+   "name": "Gotron Pilot",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 777,
+   "name": "Gotron Pilot",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 778,
+   "name": "Gotron Pilot",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 779,
+   "name": "Young Memory Rick",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 780,
+   "name": "Memory Tammy",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Female"
+  }
+ ]
+}

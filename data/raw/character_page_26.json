@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=27",
+  "prev": "https://rickandmortyapi.com/api/character?page=25"
+ },
+ "results": [
+  {
+   "id": 501,
+   "name": "Fascist Rick’s Clone",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 502,
+   "name": "Revolio Clockberg Jr.",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 503,
+   "name": "Fascist Shrimp Rick",
+   "status": "Alive",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 504,
+   "name": "Fascist Shrimp Rick’s Clone",
+   "status": "Dead",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 505,
+   "name": "Fascist Shrimp Morty",
+   "status": "Alive",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 506,
+   "name": "Fascist Shrimp SS",
+   "status": "Alive",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 507,
+   "name": "Fascist Teddy Bear Rick",
+   "status": "Alive",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 508,
+   "name": "Fascist Teddy Bear Rick’s Clone",
+   "status": "Dead",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 509,
+   "name": "Bully",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 510,
+   "name": "Anchorman",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 511,
+   "name": "Anchorwoman",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 512,
+   "name": "Morty’s Lawyer",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 513,
+   "name": "Judge",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 514,
+   "name": "Public Opinion Judge",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 515,
+   "name": "Caterpillar Mr. Goldenfold",
+   "status": "Dead",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 516,
+   "name": "Wasp Rick",
+   "status": "Alive",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 517,
+   "name": "Wasp Rick’s Clone",
+   "status": "unknown",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 518,
+   "name": "Wasp Morty",
+   "status": "Alive",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 519,
+   "name": "Wasp Summer",
+   "status": "Alive",
+   "species": "Animal",
+   "gender": "Female"
+  },
+  {
+   "id": 520,
+   "name": "Wasp Jerry",
+   "status": "Alive",
+   "species": "Animal",
+   "gender": "Male"
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=6",
+  "prev": "https://rickandmortyapi.com/api/character?page=4"
+ },
+ "results": [
+  {
+   "id": 81,
+   "name": "Crocubot",
+   "status": "Dead",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 82,
+   "name": "Cronenberg Rick",
+   "status": "unknown",
+   "species": "Cronenberg",
+   "gender": "Male"
+  },
+  {
+   "id": 83,
+   "name": "Cronenberg Morty",
+   "status": "unknown",
+   "species": "Cronenberg",
+   "gender": "Male"
+  },
+  {
+   "id": 84,
+   "name": "Cult Leader Morty",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 85,
+   "name": "Cyclops Morty",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 86,
+   "name": "Cyclops Rick",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 87,
+   "name": "Cynthia",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Female"
+  },
+  {
+   "id": 88,
+   "name": "Cynthia",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 89,
+   "name": "Dale",
+   "status": "Dead",
+   "species": "Mythological Creature",
+   "gender": "Male"
+  },
+  {
+   "id": 90,
+   "name": "Daron Jefferson",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 91,
+   "name": "David Letterman",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 92,
+   "name": "Davin",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 93,
+   "name": "Diablo Verde",
+   "status": "Dead",
+   "species": "Mythological Creature",
+   "gender": "Male"
+  },
+  {
+   "id": 94,
+   "name": "Diane Sanchez",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 95,
+   "name": "Dipper and Mabel Mortys",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "unknown"
+  },
+  {
+   "id": 96,
+   "name": "Tuberculosis",
+   "status": "Dead",
+   "species": "Disease",
+   "gender": "unknown"
+  },
+  {
+   "id": 97,
+   "name": "Gonorrhea",
+   "status": "Dead",
+   "species": "Disease",
+   "gender": "unknown"
+  },
+  {
+   "id": 98,
+   "name": "Hepatitis A",
+   "status": "Dead",
+   "species": "Disease",
+   "gender": "unknown"
+  },
+  {
+   "id": 99,
+   "name": "Hepatitis C",
+   "status": "Dead",
+   "species": "Disease",
+   "gender": "unknown"
+  },
+  {
+   "id": 100,
+   "name": "Bubonic Plague",
+   "status": "Dead",
+   "species": "Disease",
+   "gender": "unknown"
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=14",
+  "prev": "https://rickandmortyapi.com/api/character?page=12"
+ },
+ "results": [
+  {
+   "id": 241,
+   "name": "Mr. Marklovitz",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 242,
+   "name": "Mr. Meeseeks",
+   "status": "unknown",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 243,
+   "name": "Mr. Needful",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 244,
+   "name": "Mr. Poopybutthole",
+   "status": "Alive",
+   "species": "Poopybutthole",
+   "gender": "Male"
+  },
+  {
+   "id": 245,
+   "name": "Mrs. Lipkip",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 246,
+   "name": "Mrs. Pancakes",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 247,
+   "name": "Amy Poopybutthole",
+   "status": "Alive",
+   "species": "Poopybutthole",
+   "gender": "Female"
+  },
+  {
+   "id": 248,
+   "name": "Mrs. Refrigerator",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Female"
+  },
+  {
+   "id": 249,
+   "name": "Mrs. Sanchez",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 250,
+   "name": "Mrs. Sullivan",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 251,
+   "name": "Nancy",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 252,
+   "name": "Noob-Noob",
+   "status": "Alive",
+   "species": "Poopybutthole",
+   "gender": "Male"
+  },
+  {
+   "id": 253,
+   "name": "Numbericon",
+   "status": "unknown",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 254,
+   "name": "Octopus Man",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 255,
+   "name": "Orthodox Jew",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 256,
+   "name": "Pat Gueterman",
+   "status": "Dead",
+   "species": "Robot",
+   "gender": "Male"
+  },
+  {
+   "id": 257,
+   "name": "Paul Fleishman",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 258,
+   "name": "Pawnshop Clerk",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 259,
+   "name": "Pencilvester",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 260,
+   "name": "Phillip Jacobs",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  }
+ ]
+}

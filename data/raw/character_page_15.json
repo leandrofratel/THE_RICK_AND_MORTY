@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=16",
+  "prev": "https://rickandmortyapi.com/api/character?page=14"
+ },
+ "results": [
+  {
+   "id": 281,
+   "name": "Reverse Rick Outrage",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 282,
+   "name": "Revolio Clockberg Jr.",
+   "status": "unknown",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 283,
+   "name": "Rick D. Sanchez III",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 284,
+   "name": "Rick Guilt Rick",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 285,
+   "name": "Rick Prime",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 286,
+   "name": "Rick D-99",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 287,
+   "name": "Rick D716",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 288,
+   "name": "Rick D716-B",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 289,
+   "name": "Rick D716-C",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 290,
+   "name": "Rick Sanchez",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 291,
+   "name": "Rick J-22",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 292,
+   "name": "Rick K-22",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 293,
+   "name": "Rick Sanchez",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 294,
+   "name": "Ricktiminus Sancheziminius",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 295,
+   "name": "Riq IV",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 296,
+   "name": "Risotto Groupon",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 297,
+   "name": "Risotto's Tentacled Henchman",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 298,
+   "name": "Robot Morty",
+   "status": "unknown",
+   "species": "Robot",
+   "gender": "Male"
+  },
+  {
+   "id": 299,
+   "name": "Robot Rick",
+   "status": "unknown",
+   "species": "Robot",
+   "gender": "Male"
+  },
+  {
+   "id": 300,
+   "name": "Roger",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  }
+ ]
+}

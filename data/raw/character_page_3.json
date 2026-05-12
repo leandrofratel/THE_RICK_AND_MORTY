@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=4",
+  "prev": "https://rickandmortyapi.com/api/character?page=2"
+ },
+ "results": [
+  {
+   "id": 41,
+   "name": "Big Boobed Waitress",
+   "status": "Alive",
+   "species": "Mythological Creature",
+   "gender": "Female"
+  },
+  {
+   "id": 42,
+   "name": "Big Head Morty",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 43,
+   "name": "Big Morty",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 44,
+   "name": "Body Guard Morty",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 45,
+   "name": "Bill",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 46,
+   "name": "Bill",
+   "status": "unknown",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 47,
+   "name": "Birdperson",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 48,
+   "name": "Black Rick",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 49,
+   "name": "Blamph",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 50,
+   "name": "Blim Blam",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 51,
+   "name": "Blue Diplomat",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 52,
+   "name": "Blue Footprint Guy",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 53,
+   "name": "Blue Shirt Morty",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 54,
+   "name": "Bobby Moynihan",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 55,
+   "name": "Boobloosian",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 56,
+   "name": "Bootleg Portal Chemist Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 57,
+   "name": "Borpocian",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 58,
+   "name": "Brad",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 59,
+   "name": "Brad Anderson",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 60,
+   "name": "Calypso",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Female"
+  }
+ ]
+}

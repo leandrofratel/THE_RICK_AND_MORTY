@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=11",
+  "prev": "https://rickandmortyapi.com/api/character?page=9"
+ },
+ "results": [
+  {
+   "id": 181,
+   "name": "Jessica's Friend",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 182,
+   "name": "Jim",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 183,
+   "name": "Johnny Depp",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 184,
+   "name": "Jon",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 185,
+   "name": "Joseph Eli Lipkip",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 186,
+   "name": "Joyce Smith",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 187,
+   "name": "Juggling Rick",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 188,
+   "name": "Karen Entity",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Female"
+  },
+  {
+   "id": 189,
+   "name": "Katarina",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 190,
+   "name": "Keara",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Female"
+  },
+  {
+   "id": 191,
+   "name": "Kevin",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 192,
+   "name": "King Flippy Nips",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 193,
+   "name": "King Jellybean",
+   "status": "Dead",
+   "species": "Mythological Creature",
+   "gender": "Male"
+  },
+  {
+   "id": 194,
+   "name": "Kozbian",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 195,
+   "name": "Kristen Stewart",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 196,
+   "name": "Krombopulos Michael",
+   "status": "Dead",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 197,
+   "name": "Kyle",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 198,
+   "name": "Lady Katana",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Female"
+  },
+  {
+   "id": 199,
+   "name": "Larva Alien",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "unknown"
+  },
+  {
+   "id": 200,
+   "name": "Lawyer Morty",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  }
+ ]
+}

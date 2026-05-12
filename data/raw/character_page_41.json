@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=42",
+  "prev": "https://rickandmortyapi.com/api/character?page=40"
+ },
+ "results": [
+  {
+   "id": 801,
+   "name": "7+7 Years Old Morty",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 802,
+   "name": "26 Years Old Morty",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 803,
+   "name": "40 Years Old Morty",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 804,
+   "name": "Andy",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 805,
+   "name": "Baby Mouse Skin Morty",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 806,
+   "name": "Metaphor for Capitalism",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 807,
+   "name": "Beth Sanchez",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 808,
+   "name": "Crow Scare",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 809,
+   "name": "Pussifer",
+   "status": "Dead",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 810,
+   "name": "Stan Lee Rick",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 811,
+   "name": "Re-Build-a-Morty Morty",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 812,
+   "name": "Deformed Morty",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 813,
+   "name": "Crow Horse",
+   "status": "Alive",
+   "species": "Robot",
+   "gender": "unknown"
+  },
+  {
+   "id": 814,
+   "name": "Bald Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 815,
+   "name": "Punk Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 816,
+   "name": "Party Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 817,
+   "name": "Scar Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 818,
+   "name": "Long Hair Rick",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 819,
+   "name": "Redhead Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 820,
+   "name": "Redhead Morty",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  }
+ ]
+}

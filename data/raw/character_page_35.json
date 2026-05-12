@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=36",
+  "prev": "https://rickandmortyapi.com/api/character?page=34"
+ },
+ "results": [
+  {
+   "id": 681,
+   "name": "Adam's Mother",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Female"
+  },
+  {
+   "id": 682,
+   "name": "Warlock",
+   "status": "Dead",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 683,
+   "name": "Evolved Narnian",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 684,
+   "name": "Mr. Nimbus Secretary",
+   "status": "Alive",
+   "species": "Animal",
+   "gender": "Female"
+  },
+  {
+   "id": 685,
+   "name": "Evolved Narnian Disguised as Morty",
+   "status": "Alive",
+   "species": "Humanoid",
+   "gender": "Male"
+  },
+  {
+   "id": 686,
+   "name": "Mr. Nimbus' Squid",
+   "status": "Dead",
+   "species": "Animal",
+   "gender": "Male"
+  },
+  {
+   "id": 687,
+   "name": "Scarecrow Rick",
+   "status": "Dead",
+   "species": "Robot",
+   "gender": "Male"
+  },
+  {
+   "id": 688,
+   "name": "Scarecrow Summer",
+   "status": "Dead",
+   "species": "Robot",
+   "gender": "Female"
+  },
+  {
+   "id": 689,
+   "name": "Scarecrow Jerry",
+   "status": "Dead",
+   "species": "Robot",
+   "gender": "Male"
+  },
+  {
+   "id": 690,
+   "name": "Scarecrow Morty",
+   "status": "Dead",
+   "species": "Robot",
+   "gender": "Male"
+  },
+  {
+   "id": 691,
+   "name": "Scarecrow Beth",
+   "status": "Dead",
+   "species": "Robot",
+   "gender": "Female"
+  },
+  {
+   "id": 692,
+   "name": "Glockenspiel Jerry",
+   "status": "Alive",
+   "species": "Robot",
+   "gender": "Male"
+  },
+  {
+   "id": 693,
+   "name": "Glockenspiel Beth",
+   "status": "Dead",
+   "species": "Robot",
+   "gender": "Female"
+  },
+  {
+   "id": 694,
+   "name": "Glockenspiel Rick",
+   "status": "Dead",
+   "species": "Robot",
+   "gender": "Male"
+  },
+  {
+   "id": 695,
+   "name": "Glockenspiel Summer",
+   "status": "Dead",
+   "species": "Robot",
+   "gender": "Female"
+  },
+  {
+   "id": 696,
+   "name": "Glockenspiel Morty",
+   "status": "Dead",
+   "species": "Robot",
+   "gender": "Male"
+  },
+  {
+   "id": 697,
+   "name": "Wicker Beth",
+   "status": "Dead",
+   "species": "Robot",
+   "gender": "Female"
+  },
+  {
+   "id": 698,
+   "name": "Wicker Rick",
+   "status": "Dead",
+   "species": "Robot",
+   "gender": "Male"
+  },
+  {
+   "id": 699,
+   "name": "Wicker Morty",
+   "status": "Dead",
+   "species": "Robot",
+   "gender": "Male"
+  },
+  {
+   "id": 700,
+   "name": "Wicker Summer",
+   "status": "Dead",
+   "species": "Robot",
+   "gender": "Female"
+  }
+ ]
+}

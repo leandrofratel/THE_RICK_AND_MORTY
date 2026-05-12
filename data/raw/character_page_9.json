@@ -1,0 +1,150 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=10",
+  "prev": "https://rickandmortyapi.com/api/character?page=8"
+ },
+ "results": [
+  {
+   "id": 161,
+   "name": "Hydrogen-F",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Female"
+  },
+  {
+   "id": 162,
+   "name": "Ice-T",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Male"
+  },
+  {
+   "id": 163,
+   "name": "Ideal Jerry",
+   "status": "Dead",
+   "species": "Mythological Creature",
+   "gender": "Male"
+  },
+  {
+   "id": 164,
+   "name": "Insurance Rick",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 165,
+   "name": "Investigator Rick",
+   "status": "Dead",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 166,
+   "name": "Invisi-trooper",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 167,
+   "name": "Izzy",
+   "status": "Alive",
+   "species": "Animal",
+   "gender": "unknown"
+  },
+  {
+   "id": 168,
+   "name": "Jackie",
+   "status": "Alive",
+   "species": "Alien",
+   "gender": "Female"
+  },
+  {
+   "id": 169,
+   "name": "Jacob",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 170,
+   "name": "Jacqueline",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 171,
+   "name": "Jaguar",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 172,
+   "name": "Jamey",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 173,
+   "name": "Jan-Michael Vincent",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 174,
+   "name": "Jerry 5-126",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 175,
+   "name": "Jerry Smith",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 176,
+   "name": "Celebrity Jerry",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 177,
+   "name": "Jerry Smith",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 178,
+   "name": "Jerry's Mytholog",
+   "status": "Dead",
+   "species": "Mythological Creature",
+   "gender": "Male"
+  },
+  {
+   "id": 179,
+   "name": "Jessica",
+   "status": "Alive",
+   "species": "Cronenberg",
+   "gender": "Female"
+  },
+  {
+   "id": 180,
+   "name": "Jessica",
+   "status": "Alive",
+   "species": "Human",
+   "gender": "Female"
+  }
+ ]
+}

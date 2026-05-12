@@ -1,0 +1,52 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": null,
+  "prev": "https://rickandmortyapi.com/api/character?page=41"
+ },
+ "results": [
+  {
+   "id": 821,
+   "name": "Gotron",
+   "status": "unknown",
+   "species": "Robot",
+   "gender": "Genderless"
+  },
+  {
+   "id": 822,
+   "name": "Young Jerry",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 823,
+   "name": "Young Beth",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 824,
+   "name": "Young Beth",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Female"
+  },
+  {
+   "id": 825,
+   "name": "Young Jerry",
+   "status": "unknown",
+   "species": "Human",
+   "gender": "Male"
+  },
+  {
+   "id": 826,
+   "name": "Butter Robot",
+   "status": "Alive",
+   "species": "Robot",
+   "gender": "Genderless"
+  }
+ ]
+}
