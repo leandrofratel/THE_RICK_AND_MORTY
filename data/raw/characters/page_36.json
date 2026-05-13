@@ -1,0 +1,450 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=37",
+  "prev": "https://rickandmortyapi.com/api/character?page=35"
+ },
+ "results": [
+  {
+   "created": "2021-10-16T15:43:50.568Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Male",
+   "id": 701,
+   "image": "https://rickandmortyapi.com/api/character/avatar/701.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Metal Rick",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "Dead",
+   "type": "Decoy",
+   "url": "https://rickandmortyapi.com/api/character/701"
+  },
+  {
+   "created": "2021-10-16T15:46:56.288Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Male",
+   "id": 702,
+   "image": "https://rickandmortyapi.com/api/character/avatar/702.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Gun Brain Rick",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "Dead",
+   "type": "Decoy",
+   "url": "https://rickandmortyapi.com/api/character/702"
+  },
+  {
+   "created": "2021-10-16T15:51:02.924Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Male",
+   "id": 703,
+   "image": "https://rickandmortyapi.com/api/character/avatar/703.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Mr. Always Wants to be Hunted",
+   "origin": {
+    "name": "unknown",
+    "url": ""
+   },
+   "species": "Poopybutthole",
+   "status": "Alive",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/703"
+  },
+  {
+   "created": "2021-10-16T15:55:49.506Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Female",
+   "id": 704,
+   "image": "https://rickandmortyapi.com/api/character/avatar/704.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Squid Costume Beth",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "Dead",
+   "type": "Decoy",
+   "url": "https://rickandmortyapi.com/api/character/704"
+  },
+  {
+   "created": "2021-10-16T16:00:00.400Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Male",
+   "id": 705,
+   "image": "https://rickandmortyapi.com/api/character/avatar/705.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Squid Costume Jerry",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "Dead",
+   "type": "Decoy",
+   "url": "https://rickandmortyapi.com/api/character/705"
+  },
+  {
+   "created": "2021-10-16T16:01:02.238Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Male",
+   "id": 706,
+   "image": "https://rickandmortyapi.com/api/character/avatar/706.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Squid Costume Morty",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "Dead",
+   "type": "Decoy",
+   "url": "https://rickandmortyapi.com/api/character/706"
+  },
+  {
+   "created": "2021-10-16T16:01:52.437Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Male",
+   "id": 707,
+   "image": "https://rickandmortyapi.com/api/character/avatar/707.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Squid Costume Rick",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "Dead",
+   "type": "Decoy",
+   "url": "https://rickandmortyapi.com/api/character/707"
+  },
+  {
+   "created": "2021-10-16T16:03:02.153Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Female",
+   "id": 708,
+   "image": "https://rickandmortyapi.com/api/character/avatar/708.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Squid Costume Summer",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "Dead",
+   "type": "Decoy",
+   "url": "https://rickandmortyapi.com/api/character/708"
+  },
+  {
+   "created": "2021-10-16T16:04:24.097Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Male",
+   "id": 709,
+   "image": "https://rickandmortyapi.com/api/character/avatar/709.jpeg",
+   "location": {
+    "name": "Interdimensional Cable",
+    "url": "https://rickandmortyapi.com/api/location/6"
+   },
+   "name": "Dracula",
+   "origin": {
+    "name": "Interdimensional Cable",
+    "url": "https://rickandmortyapi.com/api/location/6"
+   },
+   "species": "Mythological Creature",
+   "status": "Alive",
+   "type": "Vampire",
+   "url": "https://rickandmortyapi.com/api/character/709"
+  },
+  {
+   "created": "2021-10-16T16:06:00.878Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Male",
+   "id": 710,
+   "image": "https://rickandmortyapi.com/api/character/avatar/710.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Steve",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Alive",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/710"
+  },
+  {
+   "created": "2021-10-16T16:11:18.457Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Male",
+   "id": 711,
+   "image": "https://rickandmortyapi.com/api/character/avatar/711.jpeg",
+   "location": {
+    "name": "Interdimensional Cable",
+    "url": "https://rickandmortyapi.com/api/location/6"
+   },
+   "name": "When Wolf",
+   "origin": {
+    "name": "Interdimensional Cable",
+    "url": "https://rickandmortyapi.com/api/location/6"
+   },
+   "species": "Mythological Creature",
+   "status": "Alive",
+   "type": "Whenwolf",
+   "url": "https://rickandmortyapi.com/api/character/711"
+  },
+  {
+   "created": "2021-10-17T09:40:13.581Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Female",
+   "id": 712,
+   "image": "https://rickandmortyapi.com/api/character/avatar/712.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Too Cute to Murder Beth",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "Dead",
+   "type": "Decoy",
+   "url": "https://rickandmortyapi.com/api/character/712"
+  },
+  {
+   "created": "2021-10-17T09:40:51.620Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Male",
+   "id": 713,
+   "image": "https://rickandmortyapi.com/api/character/avatar/713.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Too Cute to Murder Rick",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "Dead",
+   "type": "Decoy",
+   "url": "https://rickandmortyapi.com/api/character/713"
+  },
+  {
+   "created": "2021-10-17T09:41:30.782Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Male",
+   "id": 714,
+   "image": "https://rickandmortyapi.com/api/character/avatar/714.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Too Cute to Murder Jerry",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "Dead",
+   "type": "Decoy",
+   "url": "https://rickandmortyapi.com/api/character/714"
+  },
+  {
+   "created": "2021-10-17T09:42:15.208Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Male",
+   "id": 715,
+   "image": "https://rickandmortyapi.com/api/character/avatar/715.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Too Cute to Murder Morty",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "Dead",
+   "type": "Decoy",
+   "url": "https://rickandmortyapi.com/api/character/715"
+  },
+  {
+   "created": "2021-10-17T09:42:51.073Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/43"
+   ],
+   "gender": "Female",
+   "id": 716,
+   "image": "https://rickandmortyapi.com/api/character/avatar/716.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Too Cute to Murder Summer",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "Dead",
+   "type": "Decoy",
+   "url": "https://rickandmortyapi.com/api/character/716"
+  },
+  {
+   "created": "2021-10-17T09:50:18.307Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/44"
+   ],
+   "gender": "Female",
+   "id": 717,
+   "image": "https://rickandmortyapi.com/api/character/avatar/717.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Planetina",
+   "origin": {
+    "name": "Elemental Rings",
+    "url": "https://rickandmortyapi.com/api/location/111"
+   },
+   "species": "Humanoid",
+   "status": "Alive",
+   "type": "Summon",
+   "url": "https://rickandmortyapi.com/api/character/717"
+  },
+  {
+   "created": "2021-10-17T09:53:07.883Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/44"
+   ],
+   "gender": "Female",
+   "id": 718,
+   "image": "https://rickandmortyapi.com/api/character/avatar/718.jpeg",
+   "location": {
+    "name": "Ferkus 9",
+    "url": "https://rickandmortyapi.com/api/location/113"
+   },
+   "name": "Daphne",
+   "origin": {
+    "name": "Morglutz",
+    "url": "https://rickandmortyapi.com/api/location/112"
+   },
+   "species": "Alien",
+   "status": "Alive",
+   "type": "Morglutzian",
+   "url": "https://rickandmortyapi.com/api/character/718"
+  },
+  {
+   "created": "2021-10-17T09:55:17.683Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/44"
+   ],
+   "gender": "Male",
+   "id": 719,
+   "image": "https://rickandmortyapi.com/api/character/avatar/719.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Diesel Weasel",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Animal",
+   "status": "Alive",
+   "type": "Weasel",
+   "url": "https://rickandmortyapi.com/api/character/719"
+  },
+  {
+   "created": "2021-10-17T09:57:07.971Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/44"
+   ],
+   "gender": "Male",
+   "id": 720,
+   "image": "https://rickandmortyapi.com/api/character/avatar/720.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Eddie",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/720"
+  }
+ ]
+}

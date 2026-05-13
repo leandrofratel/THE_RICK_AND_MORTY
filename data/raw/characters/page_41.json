@@ -1,0 +1,450 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=42",
+  "prev": "https://rickandmortyapi.com/api/character?page=40"
+ },
+ "results": [
+  {
+   "created": "2021-11-02T13:12:26.860Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 801,
+   "image": "https://rickandmortyapi.com/api/character/avatar/801.jpeg",
+   "location": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "name": "7+7 Years Old Morty",
+   "origin": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "species": "Human",
+   "status": "unknown",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/801"
+  },
+  {
+   "created": "2021-11-02T13:12:42.408Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 802,
+   "image": "https://rickandmortyapi.com/api/character/avatar/802.jpeg",
+   "location": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "name": "26 Years Old Morty",
+   "origin": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/802"
+  },
+  {
+   "created": "2021-11-02T13:13:51.515Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 803,
+   "image": "https://rickandmortyapi.com/api/character/avatar/803.jpeg",
+   "location": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "name": "40 Years Old Morty",
+   "origin": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "species": "Human",
+   "status": "unknown",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/803"
+  },
+  {
+   "created": "2021-11-02T13:19:19.807Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 804,
+   "image": "https://rickandmortyapi.com/api/character/avatar/804.jpeg",
+   "location": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "name": "Andy",
+   "origin": {
+    "name": "unknown",
+    "url": ""
+   },
+   "species": "Human",
+   "status": "unknown",
+   "type": "Mascot",
+   "url": "https://rickandmortyapi.com/api/character/804"
+  },
+  {
+   "created": "2021-11-02T13:31:17.973Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 805,
+   "image": "https://rickandmortyapi.com/api/character/avatar/805.jpeg",
+   "location": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "name": "Baby Mouse Skin Morty",
+   "origin": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "species": "Human",
+   "status": "Alive",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/805"
+  },
+  {
+   "created": "2021-11-02T13:33:10.457Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 806,
+   "image": "https://rickandmortyapi.com/api/character/avatar/806.jpeg",
+   "location": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "name": "Metaphor for Capitalism",
+   "origin": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "species": "Humanoid",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/806"
+  },
+  {
+   "created": "2021-11-02T13:39:31.038Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Female",
+   "id": 807,
+   "image": "https://rickandmortyapi.com/api/character/avatar/807.jpeg",
+   "location": {
+    "name": "Rick's Memories",
+    "url": "https://rickandmortyapi.com/api/location/126"
+   },
+   "name": "Beth Sanchez",
+   "origin": {
+    "name": "Earth (C-137)",
+    "url": "https://rickandmortyapi.com/api/location/1"
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/807"
+  },
+  {
+   "created": "2021-11-02T13:41:47.963Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 808,
+   "image": "https://rickandmortyapi.com/api/character/avatar/808.jpeg",
+   "location": {
+    "name": "Rick and Two Crows Planet",
+    "url": "https://rickandmortyapi.com/api/location/125"
+   },
+   "name": "Crow Scare",
+   "origin": {
+    "name": "Rick and Two Crows Planet",
+    "url": "https://rickandmortyapi.com/api/location/125"
+   },
+   "species": "Humanoid",
+   "status": "Alive",
+   "type": "Scarecrow",
+   "url": "https://rickandmortyapi.com/api/character/808"
+  },
+  {
+   "created": "2021-11-02T13:51:30.942Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 809,
+   "image": "https://rickandmortyapi.com/api/character/avatar/809.jpeg",
+   "location": {
+    "name": "Rick and Two Crows Planet",
+    "url": "https://rickandmortyapi.com/api/location/125"
+   },
+   "name": "Pussifer",
+   "origin": {
+    "name": "Rick and Two Crows Planet",
+    "url": "https://rickandmortyapi.com/api/location/125"
+   },
+   "species": "Animal",
+   "status": "Dead",
+   "type": "Tiger",
+   "url": "https://rickandmortyapi.com/api/character/809"
+  },
+  {
+   "created": "2021-11-02T13:55:06.815Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 810,
+   "image": "https://rickandmortyapi.com/api/character/avatar/810.jpeg",
+   "location": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "name": "Stan Lee Rick",
+   "origin": {
+    "name": "unknown",
+    "url": ""
+   },
+   "species": "Human",
+   "status": "unknown",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/810"
+  },
+  {
+   "created": "2021-11-02T14:06:40.357Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 811,
+   "image": "https://rickandmortyapi.com/api/character/avatar/811.jpeg",
+   "location": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "name": "Re-Build-a-Morty Morty",
+   "origin": {
+    "name": "unknown",
+    "url": ""
+   },
+   "species": "Human",
+   "status": "unknown",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/811"
+  },
+  {
+   "created": "2021-11-02T14:07:57.818Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 812,
+   "image": "https://rickandmortyapi.com/api/character/avatar/812.jpeg",
+   "location": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "name": "Deformed Morty",
+   "origin": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "species": "Humanoid",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/812"
+  },
+  {
+   "created": "2021-11-02T14:11:56.442Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "unknown",
+   "id": 813,
+   "image": "https://rickandmortyapi.com/api/character/avatar/813.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Crow Horse",
+   "origin": {
+    "name": "Rick and Two Crows Planet",
+    "url": "https://rickandmortyapi.com/api/location/125"
+   },
+   "species": "Robot",
+   "status": "Alive",
+   "type": "Crow Horse",
+   "url": "https://rickandmortyapi.com/api/character/813"
+  },
+  {
+   "created": "2021-11-02T15:16:51.977Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 814,
+   "image": "https://rickandmortyapi.com/api/character/avatar/814.jpeg",
+   "location": {
+    "name": "Rick's Memories",
+    "url": "https://rickandmortyapi.com/api/location/126"
+   },
+   "name": "Bald Rick",
+   "origin": {
+    "name": "unknown",
+    "url": ""
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/814"
+  },
+  {
+   "created": "2021-11-02T15:19:11.398Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 815,
+   "image": "https://rickandmortyapi.com/api/character/avatar/815.jpeg",
+   "location": {
+    "name": "Rick's Memories",
+    "url": "https://rickandmortyapi.com/api/location/126"
+   },
+   "name": "Punk Rick",
+   "origin": {
+    "name": "unknown",
+    "url": ""
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/815"
+  },
+  {
+   "created": "2021-11-02T15:21:28.996Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 816,
+   "image": "https://rickandmortyapi.com/api/character/avatar/816.jpeg",
+   "location": {
+    "name": "Rick's Memories",
+    "url": "https://rickandmortyapi.com/api/location/126"
+   },
+   "name": "Party Rick",
+   "origin": {
+    "name": "unknown",
+    "url": ""
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/816"
+  },
+  {
+   "created": "2021-11-02T15:23:05.371Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 817,
+   "image": "https://rickandmortyapi.com/api/character/avatar/817.jpeg",
+   "location": {
+    "name": "Rick's Memories",
+    "url": "https://rickandmortyapi.com/api/location/126"
+   },
+   "name": "Scar Rick",
+   "origin": {
+    "name": "unknown",
+    "url": ""
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/817"
+  },
+  {
+   "created": "2021-11-02T15:24:36.172Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 818,
+   "image": "https://rickandmortyapi.com/api/character/avatar/818.jpeg",
+   "location": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "name": "Long Hair Rick",
+   "origin": {
+    "name": "unknown",
+    "url": ""
+   },
+   "species": "Human",
+   "status": "unknown",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/818"
+  },
+  {
+   "created": "2021-11-02T15:26:36.495Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 819,
+   "image": "https://rickandmortyapi.com/api/character/avatar/819.jpeg",
+   "location": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "name": "Redhead Rick",
+   "origin": {
+    "name": "unknown",
+    "url": ""
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/819"
+  },
+  {
+   "created": "2021-11-02T15:27:02.303Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 820,
+   "image": "https://rickandmortyapi.com/api/character/avatar/820.jpeg",
+   "location": {
+    "name": "Citadel of Ricks",
+    "url": "https://rickandmortyapi.com/api/location/3"
+   },
+   "name": "Redhead Morty",
+   "origin": {
+    "name": "unknown",
+    "url": ""
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/820"
+  }
+ ]
+}

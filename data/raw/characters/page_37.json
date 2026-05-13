@@ -1,0 +1,451 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=38",
+  "prev": "https://rickandmortyapi.com/api/character?page=36"
+ },
+ "results": [
+  {
+   "created": "2021-10-17T09:57:46.574Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/44"
+   ],
+   "gender": "Female",
+   "id": 721,
+   "image": "https://rickandmortyapi.com/api/character/avatar/721.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Xing Ho",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/721"
+  },
+  {
+   "created": "2021-10-17T09:58:49.388Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/44"
+   ],
+   "gender": "Female",
+   "id": 722,
+   "image": "https://rickandmortyapi.com/api/character/avatar/722.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Air Tina-Teer",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/722"
+  },
+  {
+   "created": "2021-10-17T09:59:26.786Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/44"
+   ],
+   "gender": "Male",
+   "id": 723,
+   "image": "https://rickandmortyapi.com/api/character/avatar/723.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Water Tina-Teer",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/723"
+  },
+  {
+   "created": "2021-10-17T10:00:06.914Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/44"
+   ],
+   "gender": "Male",
+   "id": 724,
+   "image": "https://rickandmortyapi.com/api/character/avatar/724.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Planetina Buyer",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/724"
+  },
+  {
+   "created": "2021-10-17T10:01:10.143Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/44"
+   ],
+   "gender": "Male",
+   "id": 725,
+   "image": "https://rickandmortyapi.com/api/character/avatar/725.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Tony Galopagus",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Alive",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/725"
+  },
+  {
+   "created": "2021-10-17T10:09:46.047Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45"
+   ],
+   "gender": "Male",
+   "id": 726,
+   "image": "https://rickandmortyapi.com/api/character/avatar/726.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Sticky",
+   "origin": {
+    "name": "Morty",
+    "url": "https://rickandmortyapi.com/api/location/114"
+   },
+   "species": "unknown",
+   "status": "Alive",
+   "type": "Super Sperm Monster",
+   "url": "https://rickandmortyapi.com/api/character/726"
+  },
+  {
+   "created": "2021-10-17T10:10:44.560Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45"
+   ],
+   "gender": "Male",
+   "id": 727,
+   "image": "https://rickandmortyapi.com/api/character/avatar/727.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Professor Shabooboo",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/727"
+  },
+  {
+   "created": "2021-10-17T10:12:05.246Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45"
+   ],
+   "gender": "Female",
+   "id": 728,
+   "image": "https://rickandmortyapi.com/api/character/avatar/728.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Sperm Queen",
+   "origin": {
+    "name": "Morty",
+    "url": "https://rickandmortyapi.com/api/location/114"
+   },
+   "species": "unknown",
+   "status": "Dead",
+   "type": "Super Sperm Monster",
+   "url": "https://rickandmortyapi.com/api/character/728"
+  },
+  {
+   "created": "2021-10-17T10:32:39.601Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45"
+   ],
+   "gender": "Male",
+   "id": 729,
+   "image": "https://rickandmortyapi.com/api/character/avatar/729.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "CHUD King",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Animal",
+   "status": "Alive",
+   "type": "CHUD",
+   "url": "https://rickandmortyapi.com/api/character/729"
+  },
+  {
+   "created": "2021-10-17T10:35:15.825Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45"
+   ],
+   "gender": "Female",
+   "id": 730,
+   "image": "https://rickandmortyapi.com/api/character/avatar/730.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Princess Ponietta",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Animal",
+   "status": "Alive",
+   "type": "CHUD",
+   "url": "https://rickandmortyapi.com/api/character/730"
+  },
+  {
+   "created": "2021-10-17T11:56:17.275Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45",
+    "https://rickandmortyapi.com/api/episode/48"
+   ],
+   "gender": "Male",
+   "id": 731,
+   "image": "https://rickandmortyapi.com/api/character/avatar/731.jpeg",
+   "location": {
+    "name": "Space",
+    "url": "https://rickandmortyapi.com/api/location/115"
+   },
+   "name": "Naruto Smith",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Humanoid",
+   "status": "Alive",
+   "type": "Giant Incest Baby",
+   "url": "https://rickandmortyapi.com/api/character/731"
+  },
+  {
+   "created": "2021-10-17T11:59:00.689Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45"
+   ],
+   "gender": "Male",
+   "id": 732,
+   "image": "https://rickandmortyapi.com/api/character/avatar/732.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Blazen",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/732"
+  },
+  {
+   "created": "2021-10-17T12:00:07.076Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45"
+   ],
+   "gender": "Female",
+   "id": 733,
+   "image": "https://rickandmortyapi.com/api/character/avatar/733.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Kathy Ireland",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Alive",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/733"
+  },
+  {
+   "created": "2021-10-17T12:00:50.753Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45"
+   ],
+   "gender": "Male",
+   "id": 734,
+   "image": "https://rickandmortyapi.com/api/character/avatar/734.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Amazing Johnathan",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Alive",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/734"
+  },
+  {
+   "created": "2021-10-17T12:08:38.935Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45"
+   ],
+   "gender": "unknown",
+   "id": 735,
+   "image": "https://rickandmortyapi.com/api/character/avatar/735.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Foal Sanchez",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Humanoid",
+   "status": "Alive",
+   "type": "CHUD Human Mix",
+   "url": "https://rickandmortyapi.com/api/character/735"
+  },
+  {
+   "created": "2021-10-17T12:11:21.171Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45"
+   ],
+   "gender": "Male",
+   "id": 736,
+   "image": "https://rickandmortyapi.com/api/character/avatar/736.jpeg",
+   "location": {
+    "name": "Space",
+    "url": "https://rickandmortyapi.com/api/location/115"
+   },
+   "name": "Spaceman",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/736"
+  },
+  {
+   "created": "2021-10-17T12:24:53.547Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45"
+   ],
+   "gender": "Female",
+   "id": 737,
+   "image": "https://rickandmortyapi.com/api/character/avatar/737.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Cirque du Soleil Zumanity Member",
+   "origin": {
+    "name": "Near-Duplicate Reality",
+    "url": "https://rickandmortyapi.com/api/location/104"
+   },
+   "species": "Human",
+   "status": "Alive",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/737"
+  },
+  {
+   "created": "2021-10-17T12:25:18.152Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45"
+   ],
+   "gender": "Male",
+   "id": 738,
+   "image": "https://rickandmortyapi.com/api/character/avatar/738.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Cirque du Soleil Zumanity Member",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Alive",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/738"
+  },
+  {
+   "created": "2021-10-17T12:25:53.904Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45"
+   ],
+   "gender": "Female",
+   "id": 739,
+   "image": "https://rickandmortyapi.com/api/character/avatar/739.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Cirque du Soleil Zumanity Member",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Alive",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/739"
+  },
+  {
+   "created": "2021-10-17T12:26:27.530Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/45"
+   ],
+   "gender": "Female",
+   "id": 740,
+   "image": "https://rickandmortyapi.com/api/character/avatar/740.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Cirque du Soleil Zumanity Member",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/740"
+  }
+ ]
+}

@@ -1,0 +1,451 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": "https://rickandmortyapi.com/api/character?page=41",
+  "prev": "https://rickandmortyapi.com/api/character?page=39"
+ },
+ "results": [
+  {
+   "created": "2021-10-25T09:18:48.188Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/49"
+   ],
+   "gender": "Female",
+   "id": 781,
+   "image": "https://rickandmortyapi.com/api/character/avatar/781.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Rick's Garage",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "Alive",
+   "type": "Artificial Intelligence",
+   "url": "https://rickandmortyapi.com/api/character/781"
+  },
+  {
+   "created": "2021-10-25T09:20:57.545Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/49"
+   ],
+   "gender": "Male",
+   "id": 782,
+   "image": "https://rickandmortyapi.com/api/character/avatar/782.jpeg",
+   "location": {
+    "name": "Birdperson's Consciousness",
+    "url": "https://rickandmortyapi.com/api/location/120"
+   },
+   "name": "Memory Squanchy",
+   "origin": {
+    "name": "Birdperson's Consciousness",
+    "url": "https://rickandmortyapi.com/api/location/120"
+   },
+   "species": "Alien",
+   "status": "Dead",
+   "type": "Memory",
+   "url": "https://rickandmortyapi.com/api/character/782"
+  },
+  {
+   "created": "2021-10-25T09:22:40.448Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/49"
+   ],
+   "gender": "Male",
+   "id": 783,
+   "image": "https://rickandmortyapi.com/api/character/avatar/783.jpeg",
+   "location": {
+    "name": "Birdperson's Consciousness",
+    "url": "https://rickandmortyapi.com/api/location/120"
+   },
+   "name": "Memory Rick",
+   "origin": {
+    "name": "Birdperson's Consciousness",
+    "url": "https://rickandmortyapi.com/api/location/120"
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "Memory",
+   "url": "https://rickandmortyapi.com/api/character/783"
+  },
+  {
+   "created": "2021-10-25T09:23:22.034Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/49"
+   ],
+   "gender": "Male",
+   "id": 784,
+   "image": "https://rickandmortyapi.com/api/character/avatar/784.jpeg",
+   "location": {
+    "name": "Birdperson's Consciousness",
+    "url": "https://rickandmortyapi.com/api/location/120"
+   },
+   "name": "Memory Rick",
+   "origin": {
+    "name": "Birdperson's Consciousness",
+    "url": "https://rickandmortyapi.com/api/location/120"
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "Memory",
+   "url": "https://rickandmortyapi.com/api/character/784"
+  },
+  {
+   "created": "2021-10-25T09:24:51.284Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/49"
+   ],
+   "gender": "Male",
+   "id": 785,
+   "image": "https://rickandmortyapi.com/api/character/avatar/785.jpeg",
+   "location": {
+    "name": "Birdperson's Consciousness",
+    "url": "https://rickandmortyapi.com/api/location/120"
+   },
+   "name": "Memory Geardude",
+   "origin": {
+    "name": "Birdperson's Consciousness",
+    "url": "https://rickandmortyapi.com/api/location/120"
+   },
+   "species": "Alien",
+   "status": "Dead",
+   "type": "Memory",
+   "url": "https://rickandmortyapi.com/api/character/785"
+  },
+  {
+   "created": "2021-10-25T09:27:05.325Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/49"
+   ],
+   "gender": "Female",
+   "id": 786,
+   "image": "https://rickandmortyapi.com/api/character/avatar/786.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Birdperson \u0026 Tammy's Child",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Humanoid",
+   "status": "Alive",
+   "type": "Bird-Person Human Mix",
+   "url": "https://rickandmortyapi.com/api/character/786"
+  },
+  {
+   "created": "2021-10-25T09:31:47.377Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/50",
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "unknown",
+   "id": 787,
+   "image": "https://rickandmortyapi.com/api/character/avatar/787.jpeg",
+   "location": {
+    "name": "Rick and Two Crows Planet",
+    "url": "https://rickandmortyapi.com/api/location/125"
+   },
+   "name": "Two Crows",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Animal",
+   "status": "Alive",
+   "type": "Crow",
+   "url": "https://rickandmortyapi.com/api/character/787"
+  },
+  {
+   "created": "2021-10-25T10:18:19.997Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/50"
+   ],
+   "gender": "Male",
+   "id": 788,
+   "image": "https://rickandmortyapi.com/api/character/avatar/788.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Mr. Cookie President",
+   "origin": {
+    "name": "unknown",
+    "url": ""
+   },
+   "species": "Alien",
+   "status": "Alive",
+   "type": "Cookie",
+   "url": "https://rickandmortyapi.com/api/character/788"
+  },
+  {
+   "created": "2021-10-25T10:19:06.159Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/50"
+   ],
+   "gender": "Male",
+   "id": 789,
+   "image": "https://rickandmortyapi.com/api/character/avatar/789.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Nick",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Human",
+   "status": "Dead",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/789"
+  },
+  {
+   "created": "2021-10-25T10:20:33.373Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/50"
+   ],
+   "gender": "Male",
+   "id": 790,
+   "image": "https://rickandmortyapi.com/api/character/avatar/790.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Harold (Garbage Goober)",
+   "origin": {
+    "name": "unknown",
+    "url": ""
+   },
+   "species": "Alien",
+   "status": "Alive",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/790"
+  },
+  {
+   "created": "2021-10-25T10:21:17.779Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/50"
+   ],
+   "gender": "Female",
+   "id": 791,
+   "image": "https://rickandmortyapi.com/api/character/avatar/791.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Harold's Wife",
+   "origin": {
+    "name": "unknown",
+    "url": ""
+   },
+   "species": "Alien",
+   "status": "Alive",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/791"
+  },
+  {
+   "created": "2021-10-26T14:48:36.728Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/50"
+   ],
+   "gender": "Male",
+   "id": 792,
+   "image": "https://rickandmortyapi.com/api/character/avatar/792.jpeg",
+   "location": {
+    "name": "Avian Planet",
+    "url": "https://rickandmortyapi.com/api/location/122"
+   },
+   "name": "Alien Crow",
+   "origin": {
+    "name": "Avian Planet",
+    "url": "https://rickandmortyapi.com/api/location/122"
+   },
+   "species": "Alien",
+   "status": "Dead",
+   "type": "Crow",
+   "url": "https://rickandmortyapi.com/api/character/792"
+  },
+  {
+   "created": "2021-11-02T13:00:18.318Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/50"
+   ],
+   "gender": "Female",
+   "id": 793,
+   "image": "https://rickandmortyapi.com/api/character/avatar/793.jpeg",
+   "location": {
+    "name": "Avian Planet",
+    "url": "https://rickandmortyapi.com/api/location/122"
+   },
+   "name": "Alien Crow",
+   "origin": {
+    "name": "Avian Planet",
+    "url": "https://rickandmortyapi.com/api/location/122"
+   },
+   "species": "Alien",
+   "status": "Dead",
+   "type": "Crow",
+   "url": "https://rickandmortyapi.com/api/character/793"
+  },
+  {
+   "created": "2021-11-02T13:04:18.866Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/48"
+   ],
+   "gender": "Male",
+   "id": 794,
+   "image": "https://rickandmortyapi.com/api/character/avatar/794.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Samansky",
+   "origin": {
+    "name": "Normal Size Bug Dimension",
+    "url": "https://rickandmortyapi.com/api/location/123"
+   },
+   "species": "Alien",
+   "status": "Dead",
+   "type": "Normal Size Bug",
+   "url": "https://rickandmortyapi.com/api/character/794"
+  },
+  {
+   "created": "2021-11-02T13:05:12.642Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/48"
+   ],
+   "gender": "Male",
+   "id": 795,
+   "image": "https://rickandmortyapi.com/api/character/avatar/795.jpeg",
+   "location": {
+    "name": "Normal Size Bug Dimension",
+    "url": "https://rickandmortyapi.com/api/location/123"
+   },
+   "name": "Palicki",
+   "origin": {
+    "name": "Normal Size Bug Dimension",
+    "url": "https://rickandmortyapi.com/api/location/123"
+   },
+   "species": "Alien",
+   "status": "Alive",
+   "type": "Normal Size Bug",
+   "url": "https://rickandmortyapi.com/api/character/795"
+  },
+  {
+   "created": "2021-11-02T13:05:42.996Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/48"
+   ],
+   "gender": "Male",
+   "id": 796,
+   "image": "https://rickandmortyapi.com/api/character/avatar/796.jpeg",
+   "location": {
+    "name": "Normal Size Bug Dimension",
+    "url": "https://rickandmortyapi.com/api/location/123"
+   },
+   "name": "Sarge",
+   "origin": {
+    "name": "Normal Size Bug Dimension",
+    "url": "https://rickandmortyapi.com/api/location/123"
+   },
+   "species": "Alien",
+   "status": "Alive",
+   "type": "Normal Size Bug",
+   "url": "https://rickandmortyapi.com/api/character/796"
+  },
+  {
+   "created": "2021-11-02T13:07:40.795Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/44"
+   ],
+   "gender": "Male",
+   "id": 797,
+   "image": "https://rickandmortyapi.com/api/character/avatar/797.jpeg",
+   "location": {
+    "name": "Slartivart",
+    "url": "https://rickandmortyapi.com/api/location/124"
+   },
+   "name": "Slartivartian",
+   "origin": {
+    "name": "Slartivart",
+    "url": "https://rickandmortyapi.com/api/location/124"
+   },
+   "species": "Alien",
+   "status": "Dead",
+   "type": "Slartivartian",
+   "url": "https://rickandmortyapi.com/api/character/797"
+  },
+  {
+   "created": "2021-11-02T13:09:10.765Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/44"
+   ],
+   "gender": "Male",
+   "id": 798,
+   "image": "https://rickandmortyapi.com/api/character/avatar/798.jpeg",
+   "location": {
+    "name": "Ferkus 9",
+    "url": "https://rickandmortyapi.com/api/location/113"
+   },
+   "name": "Ferkusian",
+   "origin": {
+    "name": "Ferkus 9",
+    "url": "https://rickandmortyapi.com/api/location/113"
+   },
+   "species": "Alien",
+   "status": "Alive",
+   "type": "Ferkusian",
+   "url": "https://rickandmortyapi.com/api/character/798"
+  },
+  {
+   "created": "2021-11-02T13:09:51.886Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/44"
+   ],
+   "gender": "Male",
+   "id": 799,
+   "image": "https://rickandmortyapi.com/api/character/avatar/799.jpeg",
+   "location": {
+    "name": "Morglutz",
+    "url": "https://rickandmortyapi.com/api/location/112"
+   },
+   "name": "Morglutzian",
+   "origin": {
+    "name": "Morglutz",
+    "url": "https://rickandmortyapi.com/api/location/112"
+   },
+   "species": "Alien",
+   "status": "Dead",
+   "type": "Morglutzian",
+   "url": "https://rickandmortyapi.com/api/character/799"
+  },
+  {
+   "created": "2021-11-02T13:11:52.372Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/47"
+   ],
+   "gender": "Male",
+   "id": 800,
+   "image": "https://rickandmortyapi.com/api/character/avatar/800.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Super Turkey",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Humanoid",
+   "status": "Dead",
+   "type": "Turkey Human Mix",
+   "url": "https://rickandmortyapi.com/api/character/800"
+  }
+ ]
+}

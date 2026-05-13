@@ -8,21 +8,29 @@ import (
 	"github.com/leandro/rickmorty-ingestion/internal/writer"
 )
 
-func main() {
-	url := "https://rickandmortyapi.com/api/character"
+func ingest(resource string) {
+	url := fmt.Sprintf(
+		"https://rickandmortyapi.com/api/%s",
+		resource,
+	)
+
 	page := 1
 
 	for url != "" {
-		fmt.Println("Buscando página:", page)
+		fmt.Printf(
+			"Buscando %s - página: %d\n",
+			resource,
+			page,
+		)
 
-		resp, err := fetcher.FetchCharacters(url)
+		resp, err := fetcher.FetchResource(url)
 		if err != nil {
 			panic(err)
 		}
 
 		filename := fmt.Sprintf(
-			"../data/raw/character_page_%d.json",
-
+			"../data/raw/%ss/page_%d.json",
+			resource,
 			page,
 		)
 
@@ -31,16 +39,29 @@ func main() {
 			panic(err)
 		}
 
-		// adiciona um delay
-		time.Sleep(500 * time.Millisecond)
-
 		if resp.Info.Next == nil {
 			break
 		}
 
 		url = *resp.Info.Next
 		page++
+
+		time.Sleep(500 * time.Millisecond)
 	}
 
-	fmt.Println("Ingestão de dados concluida!")
+	fmt.Printf("\n%s concluído\n\n", resource)
+}
+
+func main() {
+	resources := []string{
+		"character",
+		"location",
+		"episode",
+	}
+
+	for _, resource := range resources {
+		ingest(resource)
+	}
+
+	fmt.Println("Ingestão finalizada")
 }

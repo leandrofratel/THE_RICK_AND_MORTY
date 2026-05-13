@@ -1,0 +1,142 @@
+{
+ "info": {
+  "count": 826,
+  "pages": 42,
+  "next": null,
+  "prev": "https://rickandmortyapi.com/api/character?page=41"
+ },
+ "results": [
+  {
+   "created": "2021-11-02T17:15:24.788Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/48"
+   ],
+   "gender": "Genderless",
+   "id": 821,
+   "image": "https://rickandmortyapi.com/api/character/avatar/821.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Gotron",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "unknown",
+   "type": "Ferret Robot",
+   "url": "https://rickandmortyapi.com/api/character/821"
+  },
+  {
+   "created": "2021-11-02T17:18:31.934Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 822,
+   "image": "https://rickandmortyapi.com/api/character/avatar/822.jpeg",
+   "location": {
+    "name": "Earth (Unknown dimension)",
+    "url": "https://rickandmortyapi.com/api/location/30"
+   },
+   "name": "Young Jerry",
+   "origin": {
+    "name": "Earth (Unknown dimension)",
+    "url": "https://rickandmortyapi.com/api/location/30"
+   },
+   "species": "Human",
+   "status": "unknown",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/822"
+  },
+  {
+   "created": "2021-11-02T17:19:00.951Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Female",
+   "id": 823,
+   "image": "https://rickandmortyapi.com/api/character/avatar/823.jpeg",
+   "location": {
+    "name": "Earth (Unknown dimension)",
+    "url": "https://rickandmortyapi.com/api/location/30"
+   },
+   "name": "Young Beth",
+   "origin": {
+    "name": "Earth (Unknown dimension)",
+    "url": "https://rickandmortyapi.com/api/location/30"
+   },
+   "species": "Human",
+   "status": "unknown",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/823"
+  },
+  {
+   "created": "2021-11-02T17:19:47.957Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Female",
+   "id": 824,
+   "image": "https://rickandmortyapi.com/api/character/avatar/824.jpeg",
+   "location": {
+    "name": "Earth (Unknown dimension)",
+    "url": "https://rickandmortyapi.com/api/location/30"
+   },
+   "name": "Young Beth",
+   "origin": {
+    "name": "Earth (Unknown dimension)",
+    "url": "https://rickandmortyapi.com/api/location/30"
+   },
+   "species": "Human",
+   "status": "unknown",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/824"
+  },
+  {
+   "created": "2021-11-02T17:20:14.305Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/51"
+   ],
+   "gender": "Male",
+   "id": 825,
+   "image": "https://rickandmortyapi.com/api/character/avatar/825.jpeg",
+   "location": {
+    "name": "Earth (Unknown dimension)",
+    "url": "https://rickandmortyapi.com/api/location/30"
+   },
+   "name": "Young Jerry",
+   "origin": {
+    "name": "Earth (Unknown dimension)",
+    "url": "https://rickandmortyapi.com/api/location/30"
+   },
+   "species": "Human",
+   "status": "unknown",
+   "type": "",
+   "url": "https://rickandmortyapi.com/api/character/825"
+  },
+  {
+   "created": "2021-11-02T17:24:37.458Z",
+   "episode": [
+    "https://rickandmortyapi.com/api/episode/9"
+   ],
+   "gender": "Genderless",
+   "id": 826,
+   "image": "https://rickandmortyapi.com/api/character/avatar/826.jpeg",
+   "location": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "name": "Butter Robot",
+   "origin": {
+    "name": "Earth (Replacement Dimension)",
+    "url": "https://rickandmortyapi.com/api/location/20"
+   },
+   "species": "Robot",
+   "status": "Alive",
+   "type": "Passing Butter Robot",
+   "url": "https://rickandmortyapi.com/api/character/826"
+  }
+ ]
+}
