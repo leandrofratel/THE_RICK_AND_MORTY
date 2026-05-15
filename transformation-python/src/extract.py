@@ -31,6 +31,12 @@ def extrair_personagens():
     
     return df
 
+def extrair_personagens():
+    pass
+
+def extrair_localizacoes():
+    pass
+
 def salvar_parquet(df):
     """ Salva os arquivos concatenados em uma tabela em parquet """
     
