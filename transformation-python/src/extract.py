@@ -1,53 +1,61 @@
-## Extrair dados RAW e converter em parquet
-
+from pathlib import Path
 import json
 import pandas as pd
 
-from pathlib import Path
 
-CAMINHO_RAW = Path("../data/raw/characters")
+CAMINHO_RAW = Path("../data/raw")
 CAMINHO_SILVER = Path("../data/silver")
 
-print(CAMINHO_RAW)
 
-def extrair_personagens():
-    """ Extrai todos os arquivos json da pasta RAW e concatena em um arquivo unico """
+def extrair_json(pasta):
     todos_registros = []
-    arquivos = sorted(CAMINHO_RAW.glob("*.json"))
-    print(f"{len(arquivos)} arquivos encontrados")
 
-    ## Lê cada arquivo json e imprime o nome na tela
+    caminho = CAMINHO_RAW / pasta
+    arquivos = sorted(caminho.glob("*.json"))
+
+    print(f"{len(arquivos)} arquivos encontrados em {pasta}")
+
     for arquivo in arquivos:
-        print(f"lendo: {arquivo.name}")
+        print(f"Lendo: {arquivo.name}")
 
         with open(arquivo, "r", encoding="utf-8") as f:
             dados = json.load(f)
 
-        ## Converte todos os registros em data frame.
         todos_registros.extend(dados["results"])
 
     df = pd.DataFrame(todos_registros)
+
     print(f"{len(df)} registros carregados")
-    
+
     return df
 
-def extrair_personagens():
-    pass
 
-def extrair_localizacoes():
-    pass
-
-def salvar_parquet(df):
-    """ Salva os arquivos concatenados em uma tabela em parquet """
-    
-    ## Verifica se a pasta de destino existe
+def salvar_parquet(df, nome_arquivo):
     CAMINHO_SILVER.mkdir(parents=True, exist_ok=True)
 
-    arquivo_saida = CAMINHO_SILVER / "characters.parquet"
+    arquivo_saida = CAMINHO_SILVER / nome_arquivo
+
     df.to_parquet(arquivo_saida, index=False)
-    print(f"Arquivo salo em: {arquivo_saida}")
+
+    print(f"Arquivo salvo em: {arquivo_saida}")
+
+
+def extrair_personagens():
+    df = extrair_json("characters")
+    salvar_parquet(df, "characters.parquet")
+
+
+def extrair_localizacoes():
+    df = extrair_json("locations")
+    salvar_parquet(df, "locations.parquet")
+
+
+def extrair_episodios():
+    df = extrair_json("episodes")
+    salvar_parquet(df, "episodes.parquet")
+
 
 if __name__ == "__main__":
-    ## Execução do script
-    df = extrair_personagens()
-    salvar_parquet(df)
+    extrair_personagens()
+    extrair_localizacoes()
+    extrair_episodios()
