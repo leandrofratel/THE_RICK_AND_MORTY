@@ -9,7 +9,7 @@ SPRINTS
 
 Sprint 1    ✅ Ingestão Go
 Sprint 2    ✅ Camada Silver (raw -> parquet -> flatten)
-Sprint 2.5  ⏳ Enriquecimento da Silver
+Sprint 2.5  ✅ Enriquecimento da Silver
 Sprint 3    ⏳ Camada Gold (modelo dimensional)
 Sprint 4    ⏳ Dashboard Power BI
 Sprint 5    ⏳ Social Graph Analytics (SNA)
@@ -102,11 +102,13 @@ TABELAS SILVER
 ENRIQUECIMENTOS SILVER (Sprint 2.5)
 ========================================
 
-1° ⏳ origin_dimension
-2° ⏳ current_dimension
-3° ⏳ last_episode_id
-4° ⏳ last_episode_name
-5° ⏳ air_date -> datetime
+1° ✅ origin_dimension
+2° ✅ current_dimension
+3° ✅ first_episode_id
+4° ✅ first_episode_name
+5° ✅ last_episode_id
+6° ✅ last_episode_name
+7° ✅ air_date -> datetime
 
 
 ========================================
