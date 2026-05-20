@@ -115,10 +115,10 @@ ENRIQUECIMENTOS SILVER (Sprint 2.5)
 TABELAS GOLD
 ========================================
 
-1° ⏳ dim_character.parquet
+1° ✅ dim_character.parquet
 2° ⏳ dim_location.parquet
 3° ⏳ dim_episode.parquet
-4° ⏳ fact_character_episode.parquet
+4° ✅ fact_character_episode.parquet
 
 
 ========================================
