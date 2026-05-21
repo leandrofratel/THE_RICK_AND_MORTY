@@ -10,7 +10,7 @@ SPRINTS
 Sprint 1    ✅ Ingestão Go
 Sprint 2    ✅ Camada Silver (raw -> parquet -> flatten)
 Sprint 2.5  ✅ Enriquecimento da Silver
-Sprint 3    ⏳ Camada Gold (modelo dimensional)
+Sprint 3    ✅ Camada Gold (modelo dimensional)
 Sprint 4    ⏳ Dashboard Power BI
 Sprint 5    ⏳ Social Graph Analytics (SNA)
 
@@ -116,8 +116,8 @@ TABELAS GOLD
 ========================================
 
 1° ✅ dim_character.parquet
-2° ⏳ dim_location.parquet
-3° ⏳ dim_episode.parquet
+2° ✅ dim_location.parquet
+3° ✅ dim_episode.parquet
 4° ✅ fact_character_episode.parquet
 
 

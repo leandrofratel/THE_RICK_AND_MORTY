@@ -4,6 +4,8 @@ from pathlib import Path
 
 fact = "../data/gold/fact_character_episode.parquet"
 dim_1 = "../data/gold/dim_character.parquet"
+dim_2 = "../data/gold/dim_location.parquet"
+dim_3 = "../data/gold/dim_episode.parquet"
 
 
 def validacao_parquet(caminho):
@@ -34,5 +36,7 @@ def validacao_parquet(caminho):
 
 
 if __name__ == "__main__":
-    validacao_parquet(fact)
-    validacao_parquet(dim_1)
+    # validacao_parquet(fact)
+    # validacao_parquet(dim_1)
+    # validacao_parquet(dim_2)
+    validacao_parquet(dim_3)

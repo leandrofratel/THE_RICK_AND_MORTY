@@ -72,14 +72,12 @@ def transformar_personagens():
     )
 
     df.to_parquet(arquivo, index=False)
-
     print("Characters enriquecido")
 
 
 def transformar_localizacoes():
     arquivo = CAMINHO_SILVER / "locations.parquet"
     df = pd.read_parquet(arquivo)
-
     df["resident_count"] = df["residents"].apply(len)
 
     df.drop(
@@ -97,9 +95,7 @@ def transformar_episodios():
     df = pd.read_parquet(arquivo)
 
     df["air_date"] = pd.to_datetime(df["air_date"])
-
     df["character_count"] = df["characters"].apply(len)
-
     df["season"] = df["episode"].str[1:3].astype(int)
     df["episode_number"] = df["episode"].str[4:6].astype(int)
 
