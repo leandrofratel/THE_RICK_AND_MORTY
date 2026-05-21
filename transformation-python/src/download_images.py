@@ -16,6 +16,7 @@ def baixar_imagens():
     # Cria a pasta para armazenar as imagens (se não houver)
     CAMINHO_IMAGENS.mkdir(parents=True, exist_ok=True)
 
+    # Itera sobre cada url para baixar a imagem
     for _, linha in df.iterrows():
         personagem_id = linha["id"]
         url_imagem = linha["image"]
