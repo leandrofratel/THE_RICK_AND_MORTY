@@ -1,6 +1,6 @@
 # THE_RICK_AND_MORTY
 
-![Capa do Projeto](Design_Dash_Rick_and_Morty\Referencias\capa_projeto.jpg)
+![Capa do Projeto](.\capa\capa_projeto.jpg)
 
 Projeto end-to-end de **Engenharia de Dados**, **Analytics** e **Análise de Redes Sociais (SNA)** utilizando a API pública do Rick and Morty como fonte de dados.
 
