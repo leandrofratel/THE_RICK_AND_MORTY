@@ -1,0 +1,837 @@
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;500;600;700&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  .rick-dash {
+    background: #0b0f0f;
+    font-family: 'Rajdhani', sans-serif;
+    color: #c0cbbc;
+    display: grid;
+    grid-template-rows: 52px 1fr;
+    grid-template-columns: 180px 1fr;
+    width: 100%;
+    min-height: 620px;
+    border: 1px solid #1a2b1e;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .rick-dash::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(130,222,234,0.015) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(130,222,234,0.015) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .header {
+    grid-column: 1 / -1;
+    background: linear-gradient(90deg, #0d1a10 0%, #101713 60%, #0b1415 100%);
+    border-bottom: 1px solid #a7812c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 2px 20px rgba(167,129,44,0.2);
+  }
+
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #d2b44c 30%, #82deea 50%, #d2b44c 70%, transparent);
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo-hex {
+    width: 32px; height: 32px;
+    position: relative;
+  }
+
+  .logo-hex svg { width: 100%; height: 100%; }
+
+  .logo-title {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 14px;
+    color: #d2b44c;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .logo-sub {
+    font-size: 9px;
+    color: #6f8f77;
+    letter-spacing: 2px;
+    margin-top: -2px;
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  .header-center {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .status-pill {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: #82deea;
+    font-family: 'Share Tech Mono', monospace;
+    letter-spacing: 1px;
+  }
+
+  .pulse-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: #63e8ff;
+    box-shadow: 0 0 8px #63e8ff;
+    animation: pulse-anim 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse-anim {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.7); }
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: #6f8f77;
+  }
+
+  .time-display {
+    color: #82deea;
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+
+  .sidebar {
+    background: linear-gradient(180deg, #0d1a10 0%, #0b1210 100%);
+    border-right: 1px solid #2a3a20;
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    z-index: 5;
+  }
+
+  .sidebar::after {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0;
+    width: 1px;
+    background: linear-gradient(180deg, transparent, #a7812c 20%, #a7812c 80%, transparent);
+  }
+
+  .nav-section-label {
+    font-size: 9px;
+    color: #4f6d52;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 12px 16px 4px;
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 12px;
+    color: #6f8f77;
+    letter-spacing: 1px;
+  }
+
+  .nav-item:hover {
+    color: #82deea;
+    background: rgba(130,222,234,0.05);
+  }
+
+  .nav-item.active {
+    color: #82deea;
+    background: rgba(130,222,234,0.08);
+  }
+
+  .nav-item.active::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 4px; bottom: 4px;
+    width: 2px;
+    background: #63e8ff;
+    box-shadow: 0 0 10px #63e8ff;
+    border-radius: 0 2px 2px 0;
+  }
+
+  .nav-item.active::after {
+    content: '';
+    position: absolute;
+    right: 0; top: 4px; bottom: 4px;
+    width: 1px;
+    background: rgba(99,232,255,0.3);
+  }
+
+  .nav-item i {
+    font-size: 16px;
+    width: 18px;
+    text-align: center;
+  }
+
+  .sidebar-bottom {
+    margin-top: auto;
+    padding: 12px 16px;
+    border-top: 1px solid #1a2b1e;
+  }
+
+  .neural-indicator {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 9px;
+    color: #4f6d52;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+  }
+
+  .neural-bar {
+    height: 3px;
+    background: #1a2b1e;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 4px;
+  }
+
+  .neural-fill {
+    height: 100%;
+    border-radius: 2px;
+    animation: scan 3s ease-in-out infinite;
+  }
+
+  .neural-fill.green { background: linear-gradient(90deg, #4f6d52, #82deea); width: 78%; }
+  .neural-fill.amber { background: linear-gradient(90deg, #957950, #d2b44c); width: 45%; }
+
+  @keyframes scan {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
+  }
+
+  .main-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    position: relative;
+    z-index: 5;
+    overflow-y: auto;
+  }
+
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+
+  .kpi-card {
+    background: linear-gradient(135deg, rgba(15,26,17,0.9) 0%, rgba(11,18,12,0.95) 100%);
+    border: 1px solid #2a3a20;
+    border-radius: 14px;
+    padding: 14px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.3s;
+  }
+
+  .kpi-card::before {
+    content: '';
+    position: absolute;
+    top: -1px; left: 10%; right: 10%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #a7812c, transparent);
+  }
+
+  .kpi-card:hover {
+    border-color: rgba(130,222,234,0.4);
+    box-shadow: 0 0 20px rgba(130,222,234,0.06), inset 0 0 20px rgba(130,222,234,0.02);
+  }
+
+  .kpi-card:hover::before {
+    background: linear-gradient(90deg, transparent, #82deea, transparent);
+  }
+
+  .kpi-card-corner {
+    position: absolute;
+    top: 0; right: 0;
+    width: 24px; height: 24px;
+    border-top: 1px solid #a7812c;
+    border-right: 1px solid #a7812c;
+    border-radius: 0 12px 0 0;
+  }
+
+  .kpi-card:hover .kpi-card-corner {
+    border-color: #82deea;
+  }
+
+  .kpi-label {
+    font-size: 9px;
+    color: #6f8f77;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Share Tech Mono', monospace;
+    margin-bottom: 8px;
+  }
+
+  .kpi-value {
+    font-size: 28px;
+    font-weight: 700;
+    color: #dffcff;
+    line-height: 1;
+    text-shadow: 0 0 20px rgba(99,232,255,0.4);
+    font-family: 'Share Tech Mono', monospace;
+    margin-bottom: 4px;
+  }
+
+  .kpi-unit {
+    font-size: 12px;
+    color: #82deea;
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  .kpi-delta {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+
+  .delta-up { color: #6f8f77; }
+  .delta-down { color: #957950; }
+
+  .kpi-sparkline {
+    position: absolute;
+    bottom: 10px; right: 10px;
+    opacity: 0.4;
+  }
+
+  .charts-row {
+    display: grid;
+    grid-template-columns: 1fr 0.65fr;
+    gap: 12px;
+  }
+
+  .panel {
+    background: linear-gradient(135deg, rgba(15,26,17,0.9) 0%, rgba(11,18,12,0.95) 100%);
+    border: 1px solid #2a3a20;
+    border-radius: 14px;
+    padding: 14px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .panel::before {
+    content: '';
+    position: absolute;
+    top: -1px; left: 10%; right: 10%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #a7812c, transparent);
+  }
+
+  .panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .panel-title {
+    font-size: 10px;
+    color: #957950;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  .panel-badge {
+    font-size: 9px;
+    color: #82deea;
+    background: rgba(130,222,234,0.08);
+    border: 1px solid rgba(130,222,234,0.2);
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-family: 'Share Tech Mono', monospace;
+    letter-spacing: 1px;
+  }
+
+  .chart-wrap {
+    position: relative;
+    width: 100%;
+    height: 160px;
+  }
+
+  .holo-ring-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    position: relative;
+  }
+
+  .table-panel {
+    background: linear-gradient(135deg, rgba(15,26,17,0.9) 0%, rgba(11,18,12,0.95) 100%);
+    border: 1px solid #2a3a20;
+    border-radius: 14px;
+    padding: 14px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .table-panel::before {
+    content: '';
+    position: absolute;
+    top: -1px; left: 10%; right: 10%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #a7812c, transparent);
+  }
+
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 11px;
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  .data-table th {
+    text-align: left;
+    padding: 6px 10px;
+    color: #957950;
+    font-size: 9px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #1a2b1e;
+    font-weight: 400;
+  }
+
+  .data-table td {
+    padding: 7px 10px;
+    color: #c0cbbc;
+    border-bottom: 1px solid rgba(26,43,30,0.5);
+    font-size: 11px;
+  }
+
+  .data-table tr:last-child td { border-bottom: none; }
+
+  .data-table tr:hover td {
+    color: #dffcff;
+    background: rgba(130,222,234,0.03);
+  }
+
+  .status-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 9px;
+    letter-spacing: 1px;
+  }
+
+  .status-active { background: rgba(111,143,119,0.15); color: #82deea; border: 1px solid rgba(111,143,119,0.3); }
+  .status-idle { background: rgba(149,121,80,0.15); color: #d2b44c; border: 1px solid rgba(149,121,80,0.3); }
+  .status-offline { background: rgba(79,109,82,0.1); color: #4f6d52; border: 1px solid rgba(79,109,82,0.2); }
+
+  .threat-val { color: #82deea; }
+  .threat-med { color: #d2b44c; }
+  .threat-low { color: #4f6d52; }
+
+  .geo-tag {
+    color: #6f8f77;
+    font-size: 10px;
+  }
+
+  .circuit-overlay {
+    position: absolute;
+    bottom: 10px; right: 10px;
+    opacity: 0.06;
+    pointer-events: none;
+  }
+</style>
+
+<div class="rick-dash" role="main" aria-label="Rick Sanchez Cybernetic Implant Dashboard">
+  <h2 class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">Cybernetic Neural Interface Command Dashboard — Rick Sanchez Tech</h2>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo-area">
+      <div class="logo-hex">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="16,2 28,9 28,23 16,30 4,23 4,9" stroke="#a7812c" stroke-width="1" fill="rgba(167,129,44,0.06)"/>
+          <polygon points="16,6 24,11 24,21 16,26 8,21 8,11" stroke="#d2b44c" stroke-width="0.5" fill="none" opacity="0.5"/>
+          <circle cx="16" cy="16" r="4" fill="#82deea" opacity="0.8"/>
+          <circle cx="16" cy="16" r="2" fill="#dffcff"/>
+          <line x1="16" y1="2" x2="16" y2="6" stroke="#a7812c" stroke-width="0.5"/>
+          <line x1="16" y1="26" x2="16" y2="30" stroke="#a7812c" stroke-width="0.5"/>
+          <line x1="4" y1="9" x2="8" y2="11" stroke="#a7812c" stroke-width="0.5"/>
+          <line x1="28" y1="9" x2="24" y2="11" stroke="#a7812c" stroke-width="0.5"/>
+        </svg>
+      </div>
+      <div>
+        <div class="logo-title">RICK-C-137</div>
+        <div class="logo-sub">Neural Interface v9.8.4</div>
+      </div>
+    </div>
+
+    <div class="header-center">
+      <div class="status-pill"><div class="pulse-dot"></div>NEURAL LINK ACTIVE</div>
+      <div class="status-pill" style="color:#d2b44c"><div class="pulse-dot" style="background:#d2b44c;box-shadow:0 0 8px #d2b44c"></div>DIMENSION STABLE</div>
+    </div>
+
+    <div class="header-right">
+      <span>SECTOR 7G</span>
+      <span style="color:#2a3a20">|</span>
+      <span>ENCRYPTION: AES-∞</span>
+      <span style="color:#2a3a20">|</span>
+      <span class="time-display" id="clockDisplay">00:00:00</span>
+    </div>
+  </header>
+
+  <!-- SIDEBAR -->
+  <nav class="sidebar" aria-label="Navigation">
+    <div class="nav-section-label">Systems</div>
+    <div class="nav-item active">
+      <i class="ti ti-cpu" aria-hidden="true"></i>NEURAL CORE
+    </div>
+    <div class="nav-item">
+      <i class="ti ti-activity" aria-hidden="true"></i>BIOSYNC
+    </div>
+    <div class="nav-item">
+      <i class="ti ti-shield" aria-hidden="true"></i>DEFENSES
+    </div>
+    <div class="nav-item">
+      <i class="ti ti-planet" aria-hidden="true"></i>PORTALS
+    </div>
+
+    <div class="nav-section-label">Analysis</div>
+    <div class="nav-item">
+      <i class="ti ti-chart-line" aria-hidden="true"></i>DIMENSIONS
+    </div>
+    <div class="nav-item">
+      <i class="ti ti-atom" aria-hidden="true"></i>PARTICLES
+    </div>
+    <div class="nav-item">
+      <i class="ti ti-database" aria-hidden="true"></i>MEMORY BANK
+    </div>
+
+    <div class="nav-section-label">Control</div>
+    <div class="nav-item">
+      <i class="ti ti-settings" aria-hidden="true"></i>IMPLANT CFG
+    </div>
+
+    <div class="sidebar-bottom">
+      <div class="neural-indicator">NEURAL LOAD</div>
+      <div class="neural-bar"><div class="neural-fill green"></div></div>
+      <div class="neural-indicator" style="margin-top:6px">PLASMA CELLS</div>
+      <div class="neural-bar"><div class="neural-fill amber"></div></div>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+
+    <!-- KPIs -->
+    <div class="kpi-row">
+      <div class="kpi-card" role="article" aria-label="Neural Sync KPI">
+        <div class="kpi-card-corner"></div>
+        <div class="kpi-label">Neural Sync</div>
+        <div class="kpi-value" id="kpi1">98.7</div>
+        <div class="kpi-unit">%</div>
+        <div class="kpi-delta delta-up"><i class="ti ti-arrow-up-right" aria-hidden="true"></i>+2.3% SINCE BOOT</div>
+        <svg class="kpi-sparkline" width="60" height="28" aria-hidden="true">
+          <polyline points="0,20 10,15 20,18 30,8 40,12 50,5 60,8" stroke="#82deea" stroke-width="1.5" fill="none" opacity="0.7"/>
+        </svg>
+      </div>
+
+      <div class="kpi-card" role="article" aria-label="Plasma Output KPI">
+        <div class="kpi-card-corner"></div>
+        <div class="kpi-label">Plasma Output</div>
+        <div class="kpi-value" id="kpi2">4.2</div>
+        <div class="kpi-unit">TW/μs</div>
+        <div class="kpi-delta delta-up"><i class="ti ti-arrow-up-right" aria-hidden="true"></i>PEAK EFFICIENCY</div>
+        <svg class="kpi-sparkline" width="60" height="28" aria-hidden="true">
+          <polyline points="0,24 10,20 20,22 30,14 40,16 50,10 60,6" stroke="#d2b44c" stroke-width="1.5" fill="none" opacity="0.7"/>
+        </svg>
+      </div>
+
+      <div class="kpi-card" role="article" aria-label="Threats Neutralized KPI">
+        <div class="kpi-card-corner"></div>
+        <div class="kpi-label">Threats Neutralized</div>
+        <div class="kpi-value" id="kpi3">137</div>
+        <div class="kpi-unit">ENTITIES</div>
+        <div class="kpi-delta delta-up"><i class="ti ti-arrow-up-right" aria-hidden="true"></i>+12 LAST CYCLE</div>
+        <svg class="kpi-sparkline" width="60" height="28" aria-hidden="true">
+          <polyline points="0,22 10,18 20,16 30,12 40,14 50,8 60,4" stroke="#6f8f77" stroke-width="1.5" fill="none" opacity="0.7"/>
+        </svg>
+      </div>
+
+      <div class="kpi-card" role="article" aria-label="Dimensions Scanned KPI">
+        <div class="kpi-card-corner"></div>
+        <div class="kpi-label">Dimensions Scanned</div>
+        <div class="kpi-value" id="kpi4">∞-3</div>
+        <div class="kpi-unit">REALITIES</div>
+        <div class="kpi-delta delta-down"><i class="ti ti-minus" aria-hidden="true"></i>C-137 ORIGIN LOCKED</div>
+        <svg class="kpi-sparkline" width="60" height="28" aria-hidden="true">
+          <polyline points="0,14 10,10 20,16 30,6 40,12 50,4 60,10" stroke="#957950" stroke-width="1.5" fill="none" opacity="0.7"/>
+        </svg>
+      </div>
+    </div>
+
+    <!-- CHARTS ROW -->
+    <div class="charts-row">
+
+      <!-- Line Chart -->
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">Biometric Signal Flux</div>
+          <div class="panel-badge">LIVE · 60Hz</div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="lineChart" role="img" aria-label="Line chart showing biometric signal flux over time. Neural energy peaks at cycle 8, plasma at cycle 6.">Biometric data: neural energy peaks at cycle 8, plasma energy at cycle 6, cortex stability remains consistent.</canvas>
+        </div>
+        <svg class="circuit-overlay" width="120" height="80" aria-hidden="true">
+          <rect x="10" y="10" width="40" height="20" rx="2" stroke="#82deea" stroke-width="0.5" fill="none"/>
+          <line x1="50" y1="20" x2="70" y2="20" stroke="#82deea" stroke-width="0.5"/>
+          <line x1="70" y1="20" x2="70" y2="40" stroke="#82deea" stroke-width="0.5"/>
+          <circle cx="70" cy="40" r="3" stroke="#82deea" stroke-width="0.5" fill="none"/>
+          <line x1="73" y1="40" x2="110" y2="40" stroke="#82deea" stroke-width="0.5"/>
+          <line x1="20" y1="30" x2="20" y2="60" stroke="#82deea" stroke-width="0.5"/>
+          <line x1="20" y1="60" x2="50" y2="60" stroke="#82deea" stroke-width="0.5"/>
+          <rect x="50" y="55" width="25" height="10" rx="1" stroke="#a7812c" stroke-width="0.5" fill="none"/>
+        </svg>
+      </div>
+
+      <!-- Donut / Radar -->
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">Implant Modules</div>
+          <div class="panel-badge">7 ACTIVE</div>
+        </div>
+        <div class="holo-ring-wrap">
+          <canvas id="donutChart" role="img" aria-label="Donut chart showing implant module allocation: Neural 35%, Plasma 25%, Defense 20%, Sensor 12%, Other 8%.">Module allocation: Neural 35%, Plasma 25%, Defense 20%, Sensor 12%, Other 8%.</canvas>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TABLE -->
+    <div class="table-panel">
+      <div class="panel-header">
+        <div class="panel-title">Entity Threat Log</div>
+        <div style="display:flex;gap:8px">
+          <div class="panel-badge">FILTERED · C-137</div>
+          <div class="panel-badge" style="color:#d2b44c;border-color:rgba(210,180,76,0.3);background:rgba(210,180,76,0.06)">LAST 48H</div>
+        </div>
+      </div>
+      <table class="data-table" aria-label="Entity Threat Log">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Entity</th>
+            <th>Origin</th>
+            <th>Threat Lvl</th>
+            <th>Status</th>
+            <th>Response</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="color:#4f6d52">ENT-0042</td>
+            <td>Meeseeks Cluster</td>
+            <td class="geo-tag">DIM-C-141</td>
+            <td class="threat-val">CRITICAL</td>
+            <td><span class="status-badge status-active">ACTIVE</span></td>
+            <td>PLASMA BOLT</td>
+          </tr>
+          <tr>
+            <td style="color:#4f6d52">ENT-0039</td>
+            <td>Cronenberg Strain</td>
+            <td class="geo-tag">DIM-C-137</td>
+            <td class="threat-med">HIGH</td>
+            <td><span class="status-badge status-idle">CONTAINED</span></td>
+            <td>NEUROTOXIN</td>
+          </tr>
+          <tr>
+            <td style="color:#4f6d52">ENT-0037</td>
+            <td>Galactic Fed. Agent</td>
+            <td class="geo-tag">DIM-GALX-9</td>
+            <td class="threat-med">HIGH</td>
+            <td><span class="status-badge status-active">ACTIVE</span></td>
+            <td>PORTAL GUN</td>
+          </tr>
+          <tr>
+            <td style="color:#4f6d52">ENT-0031</td>
+            <td>Plutonian Swarm</td>
+            <td class="geo-tag">DIM-B-22</td>
+            <td class="threat-low">LOW</td>
+            <td><span class="status-badge status-offline">CLEARED</span></td>
+            <td>EMP BURST</td>
+          </tr>
+          <tr>
+            <td style="color:#4f6d52">ENT-0028</td>
+            <td>Microverse Rebel</td>
+            <td class="geo-tag">INNER-M-01</td>
+            <td class="threat-low">LOW</td>
+            <td><span class="status-badge status-offline">CLEARED</span></td>
+            <td>COMPRESSED AIR</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+  function updateClock() {
+    const el = document.getElementById('clockDisplay');
+    if (el) {
+      const n = new Date();
+      el.textContent = [n.getHours(), n.getMinutes(), n.getSeconds()]
+        .map(v => String(v).padStart(2, '0')).join(':');
+    }
+  }
+  updateClock();
+  setInterval(updateClock, 1000);
+
+  const baseLabels = ['T-7','T-6','T-5','T-4','T-3','T-2','T-1','T-0'];
+  const lineData = {
+    labels: baseLabels,
+    datasets: [
+      {
+        label: 'Neural Energy',
+        data: [62, 71, 68, 80, 76, 85, 90, 88],
+        borderColor: '#82deea',
+        backgroundColor: 'rgba(130,222,234,0.06)',
+        fill: true,
+        tension: 0.4,
+        borderWidth: 2,
+        pointRadius: 3,
+        pointBackgroundColor: '#82deea',
+        pointBorderColor: '#0b0f0f',
+        pointBorderWidth: 1,
+        borderDash: [],
+      },
+      {
+        label: 'Plasma Output',
+        data: [45, 52, 61, 58, 70, 65, 72, 69],
+        borderColor: '#d2b44c',
+        backgroundColor: 'rgba(210,180,76,0.04)',
+        fill: true,
+        tension: 0.4,
+        borderWidth: 1.5,
+        borderDash: [4, 3],
+        pointRadius: 3,
+        pointBackgroundColor: '#d2b44c',
+        pointBorderColor: '#0b0f0f',
+        pointBorderWidth: 1,
+      },
+      {
+        label: 'Cortex Stability',
+        data: [78, 80, 77, 82, 79, 83, 85, 84],
+        borderColor: '#6f8f77',
+        backgroundColor: 'transparent',
+        fill: false,
+        tension: 0.4,
+        borderWidth: 1,
+        borderDash: [2, 4],
+        pointRadius: 2,
+        pointBackgroundColor: '#6f8f77',
+        pointBorderColor: '#0b0f0f',
+        pointBorderWidth: 1,
+      }
+    ]
+  };
+
+  new Chart(document.getElementById('lineChart'), {
+    type: 'line',
+    data: lineData,
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: {
+          grid: { color: 'rgba(26,43,30,0.6)', lineWidth: 0.5 },
+          ticks: { color: '#4f6d52', font: { family: "'Share Tech Mono', monospace", size: 9 } },
+          border: { color: '#1a2b1e' }
+        },
+        y: {
+          min: 30, max: 100,
+          grid: { color: 'rgba(26,43,30,0.6)', lineWidth: 0.5 },
+          ticks: { color: '#4f6d52', font: { family: "'Share Tech Mono', monospace", size: 9 }, stepSize: 20 },
+          border: { color: '#1a2b1e' }
+        }
+      }
+    }
+  });
+
+  new Chart(document.getElementById('donutChart'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Neural', 'Plasma', 'Defense', 'Sensor', 'Other'],
+      datasets: [{
+        data: [35, 25, 20, 12, 8],
+        backgroundColor: [
+          'rgba(130,222,234,0.75)',
+          'rgba(210,180,76,0.75)',
+          'rgba(111,143,119,0.75)',
+          'rgba(149,121,80,0.6)',
+          'rgba(79,109,82,0.5)',
+        ],
+        borderColor: [
+          '#82deea', '#d2b44c', '#6f8f77', '#957950', '#4f6d52'
+        ],
+        borderWidth: 1.5,
+        hoverBorderWidth: 2,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      cutout: '68%',
+      plugins: {
+        legend: {
+          display: true,
+          position: 'right',
+          labels: {
+            color: '#6f8f77',
+            font: { family: "'Share Tech Mono', monospace", size: 9 },
+            boxWidth: 10,
+            boxHeight: 10,
+            padding: 8,
+            usePointStyle: false,
+          }
+        }
+      }
+    }
+  });
+</script>

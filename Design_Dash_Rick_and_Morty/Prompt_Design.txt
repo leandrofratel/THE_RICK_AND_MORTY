@@ -1,0 +1,108 @@
+Crie um dashboard futurista inspirado nos implantes cibernéticos do Rick Sanchez (Rick and Morty).
+
+Estilo visual
+
+Interface sci-fi, high-tech, com aparência de:
+
+braços mecânicos e componentes metálicos;
+painéis holográficos;
+energia azul brilhante;
+estética cyberpunk limpa;
+tecnologia alienígena avançada;
+mistura de laboratório futurista com HUD holográfica.
+
+Evite aparência infantil/cartoon. O visual deve ser profissional, premium e moderno, inspirado nos implantes do personagem.
+
+Paleta de cores
+
+Verdes metálicos (estrutura principal):
+
+#687b68
+#697c53
+#6f8f77
+#4f6d52
+
+Dourado / bronze (detalhes e bordas):
+
+#a7812c
+#957950
+#d2b44c
+
+Azul energia / holograma (accent principal):
+
+#82deea
+#63e8ff
+#dffcff
+
+Neutros metálicos:
+
+#c0cbbc
+#e1e0c6
+
+Background principal:
+
+preto profundo #0b0f0f
+ou verde escuro quase preto #101713
+Componentes do dashboard
+
+Cards:
+
+cantos arredondados médios (12–16px)
+bordas finas douradas metálicas
+glow azul suave nas bordas ativas
+efeito vidro / glassmorphism discreto
+
+KPIs:
+
+números grandes com brilho azul
+labels em verde claro metálico
+
+Gráficos:
+
+linhas neon azul
+barras em verde metálico
+hover com brilho holográfico
+
+Sidebar:
+
+fundo escuro
+ícones minimalistas
+item selecionado com glow azul
+
+Botões:
+
+hover com animação energética
+borda dourada fina
+preenchimento translúcido
+
+Tabelas:
+
+linhas divisórias sutis
+header com acabamento metálico
+Efeitos visuais
+
+Adicionar:
+
+brilho neon suave
+reflexos metálicos
+sombras profundas
+micro animações
+HUD futuristic overlays
+linhas geométricas técnicas
+circuit patterns discretos
+
+Não exagerar no glow; manter legibilidade.
+
+Layout
+
+Dashboard widescreen 16:9
+Estrutura:
+
+header superior
+sidebar esquerda
+4 KPI cards
+área central com gráficos
+tabela inferior
+visual premium para desktop
+
+Objetivo: parecer que foi construído com a tecnologia dos implantes cibernéticos do Rick.

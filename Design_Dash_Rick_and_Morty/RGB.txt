@@ -1,0 +1,5 @@
+#6f8f77   (verde metálico)
+#4f6d52   (verde sombra)
+#d2b44c   (ouro mais vivo)
+#dffcff   (azul gelo)
+#63e8ff   (energia portal)
