@@ -1,1 +1,18 @@
+# Arquivos py
 build_measure_update_defs.py
+prepare_measure_update.py
+
+# Arquivos json
+measure_defs_from_md.json
+measure_defs_md.json
+measure_move_defs.json
+measure_move_defs.json
+measure_update_summary.json
+measures_to_update.json
+
+# Arquivos txt
+measure_defs_from_md.txt
+measures_extracted.txt
+
+# sql
+querys.sql
