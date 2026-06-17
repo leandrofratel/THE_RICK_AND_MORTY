@@ -1,3 +1,12 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
 # Arquivos py
 build_measure_update_defs.py
 prepare_measure_update.py
@@ -13,6 +22,11 @@ measures_to_update.json
 # Arquivos txt
 measure_defs_from_md.txt
 measures_extracted.txt
+analysis_checklist.txt
 
-# sql
+# Arquivos sql
 querys.sql
+
+# Arquivos Markdown
+estrutura_atual.md
+MEDIDAS_DAX_RICK_AND_MORTY.md
