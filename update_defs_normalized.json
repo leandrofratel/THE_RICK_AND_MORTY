@@ -1,0 +1,192 @@
+﻿[
+    {
+        "tableName":  "_Medidas",
+        "name":  "Total Personagens",
+        "expression":  "COUNTROWS(dim_character)"
+    },
+    {
+        "tableName":  "_Medidas",
+        "name":  "Total Episódios",
+        "expression":  "COUNTROWS(dim_episode)"
+    },
+    {
+        "tableName":  "_Medidas",
+        "name":  "Total Localizações",
+        "expression":  "COUNTROWS(dim_location)"
+    },
+    {
+        "tableName":  "_Medidas",
+        "name":  "Total Dimensões",
+        "expression":  "DISTINCTCOUNT(dim_location[dimension])"
+    },
+    {
+        "tableName":  "_Medidas",
+        "name":  "Avg Personagens por Episódio",
+        "expression":  "DIVIDE(\r\n    COUNTROWS(fact_character_episode),\r\n    COUNTROWS(dim_episode),\r\n    0\r\n)"
+    },
+    {
+        "tableName":  "_Medidas",
+        "name":  "Personagens Mudaram Dimensão",
+        "expression":  "CALCULATE(\r\n    COUNTROWS(dim_character),\r\n    dim_character[Mudou Dimensão] = \"Sim\"\r\n)"
+    },
+    {
+        "tableName":  "_Medidas",
+        "name":  "Personagens Não Mudaram Dimensão",
+        "expression":  "CALCULATE(\r\n    COUNTROWS(dim_character),\r\n    dim_character[Mudou Dimensão] = \"Não\"\r\n)"
+    },
+    {
+        "tableName":  "_Medidas",
+        "name":  "% Mudou Dimensão",
+        "expression":  "DIVIDE(\r\n    [Personagens Mudaram Dimensão],\r\n    [Total Personagens],\r\n    0\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Humanos Vivos",
+        "expression":  "CALCULATE(\r\n    COUNTROWS(dim_character),\r\n    dim_character[species] = \"Human\",\r\n    dim_character[status] = \"Alive\"\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Humanos Mortos",
+        "expression":  "CALCULATE(\r\n    COUNTROWS(dim_character),\r\n    dim_character[species] = \"Human\",\r\n    dim_character[status] = \"Dead\"\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Aliens Vivos",
+        "expression":  "CALCULATE(\r\n    COUNTROWS(dim_character),\r\n    dim_character[species] = \"Alien\",\r\n    dim_character[status] = \"Alive\"\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Aliens Mortos",
+        "expression":  "CALCULATE(\r\n    COUNTROWS(dim_character),\r\n    dim_character[species] = \"Alien\",\r\n    dim_character[status] = \"Dead\"\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Personagens Masculino",
+        "expression":  "CALCULATE(\r\n    COUNTROWS(dim_character),\r\n    dim_character[gender] = \"Male\"\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Personagens Feminino",
+        "expression":  "CALCULATE(\r\n    COUNTROWS(dim_character),\r\n    dim_character[gender] = \"Female\"\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Personagens Gênero Unknown",
+        "expression":  "CALCULATE(\r\n    COUNTROWS(dim_character),\r\n    dim_character[gender] = \"Unknown\"\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Rank Espécie",
+        "expression":  "RANKX(\r\n    ALL(dim_character[species]),\r\n    CALCULATE(COUNTROWS(dim_character)),\r\n    ,\r\n    DESC,\r\n    DENSE\r\n)"
+    },
+    {
+        "tableName":  "_Medidas",
+        "name":  "Rank Personagem por Episódios",
+        "expression":  "RANKX(\r\n    ALL(dim_character[name]),\r\n    dim_character[episode_count],\r\n    ,\r\n    DESC,\r\n    DENSE\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Rank Dimensão Origem (Characters)",
+        "expression":  "RANKX(\r\n    ALL(dim_character[origin_dimension]),\r\n    CALCULATE(COUNTROWS(dim_character)),\r\n    ,\r\n    DESC,\r\n    DENSE\r\n)"
+    },
+    {
+        "tableName":  "_Medidas",
+        "name":  "Total Personagens Distintos",
+        "expression":  "DISTINCTCOUNT(fact_character_episode[character_id])"
+    },
+    {
+        "tableName":  "_Medidas",
+        "name":  "Total Episódios por Personagem",
+        "expression":  "DISTINCTCOUNT(fact_character_episode[episode_id])"
+    },
+    {
+        "tableName":  "dim_episode",
+        "name":  "Total Temporadas",
+        "expression":  "DISTINCTCOUNT(dim_episode[season])"
+    },
+    {
+        "tableName":  "dim_episode",
+        "name":  "Rank Episódio por Personagens",
+        "expression":  "RANKX(\r\n    ALL(dim_episode[name]),\r\n    CALCULATE(DISTINCTCOUNT(fact_character_episode[character_id])),\r\n    ,\r\n    DESC,\r\n    DENSE\r\n)"
+    },
+    {
+        "tableName":  "fact_character_episode",
+        "name":  "Personagens por Episódio (Distinct)",
+        "expression":  "DISTINCTCOUNT(fact_character_episode[character_id])"
+    },
+    {
+        "tableName":  "fact_character_episode",
+        "name":  "Personagens por Temporada (Distinct)",
+        "expression":  "DISTINCTCOUNT(fact_character_episode[character_id])"
+    },
+    {
+        "tableName":  "dim_location",
+        "name":  "Avg Residentes por Localização",
+        "expression":  "DIVIDE(\r\n    COUNTROWS(dim_character),\r\n    DISTINCTCOUNT(dim_location[name]),\r\n    0\r\n)"
+    },
+    {
+        "tableName":  "dim_location",
+        "name":  "Rank Localização por Residentes",
+        "expression":  "RANKX(\r\n    ALL(dim_location[name]),\r\n    dim_location[resident_count],\r\n    ,\r\n    DESC,\r\n    DENSE\r\n)"
+    },
+    {
+        "tableName":  "dim_location",
+        "name":  "Rank Dimensão por Localizações",
+        "expression":  "RANKX(\r\n    ALL(dim_location[dimension]),\r\n    CALCULATE(COUNTROWS(dim_location)),\r\n    ,\r\n    DESC,\r\n    DENSE\r\n)"
+    },
+    {
+        "tableName":  "dim_location",
+        "name":  "Rank Dimensão por Local (Locations)",
+        "expression":  "RANKX(\r\n    ALL(dim_location[dimension]),\r\n    CALCULATE(COUNTROWS(dim_location)),\r\n    ,\r\n    DESC,\r\n    DENSE\r\n)"
+    },
+    {
+        "tableName":  "dim_location",
+        "name":  "Total Residentes",
+        "expression":  "SUMPRODUCT(dim_location[resident_count])"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Personagens Vivos",
+        "expression":  "CALCULATE(\r\n    COUNTROWS(dim_character),\r\n    dim_character[status] = \"Alive\"\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Personagens Mortos",
+        "expression":  "CALCULATE(\r\n    COUNTROWS(dim_character),\r\n    dim_character[status] = \"Dead\"\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Personagens Status Unknown",
+        "expression":  "CALCULATE(\r\n    COUNTROWS(dim_character),\r\n    dim_character[status] = \"Unknown\"\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "% Personagens Mortos (Total)",
+        "expression":  "DIVIDE(\r\n    [Personagens Mortos],\r\n    [Total Personagens],\r\n    0\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Tempo Médio Permanence (Episódios)",
+        "expression":  "AVERAGE(dim_character[episode_count])"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Rank Dimensões Origem",
+        "expression":  "RANKX(\r\n    ALL(dim_character[origin_dimension]),\r\n    CALCULATE(COUNTROWS(dim_character), dim_character[origin_dimension]),\r\n    ,\r\n    DESC,\r\n    DENSE\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "% Mortos por Espécie",
+        "expression":  "DIVIDE(\r\n    CALCULATE(\r\n        COUNTROWS(dim_character),\r\n        dim_character[status] = \"Dead\"\r\n    ),\r\n    COUNTROWS(dim_character),\r\n    0\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Rank Dimensão Origem (Análises)",
+        "expression":  "RANKX(\r\n    ALL(dim_character[origin_dimension]),\r\n    CALCULATE(COUNTROWS(dim_character)),\r\n    ,\r\n    DESC,\r\n    DENSE\r\n)"
+    },
+    {
+        "tableName":  "dim_character",
+        "name":  "Personagens Introduzidos",
+        "expression":  "COUNTROWS(dim_character)"
+    }
+]
