@@ -9,7 +9,7 @@ venv.bak/
 
 # Arquivos py
 build_measure_update_defs.py
-prepare_measure_update.py
+prepare_measure_updates.py
 
 # Arquivos json
 measure_defs_from_md.json
@@ -18,6 +18,8 @@ measure_move_defs.json
 measure_move_defs.json
 measure_update_summary.json
 measures_to_update.json
+measure_update_defs.json
+update_defs_normalized.json
 
 # Arquivos txt
 measure_defs_from_md.txt
@@ -30,3 +32,7 @@ querys.sql
 # Arquivos Markdown
 estrutura_atual.md
 MEDIDAS_DAX_RICK_AND_MORTY.md
+
+# Pastas
+Design_Dash_Rick_and_Morty/
+capa/
