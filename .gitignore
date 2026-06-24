@@ -7,19 +7,13 @@ ENV/
 env.bak/
 venv.bak/
 
+
 # Arquivos py
 build_measure_update_defs.py
 prepare_measure_updates.py
 
-# Arquivos json
-measure_defs_from_md.json
-measure_defs_md.json
-measure_move_defs.json
-measure_move_defs.json
-measure_update_summary.json
-measures_to_update.json
-measure_update_defs.json
-update_defs_normalized.json
+# Arquivos json (movidos)
+.measuare_json/*.json
 
 # Arquivos txt
 measure_defs_from_md.txt
@@ -35,6 +29,9 @@ MEDIDAS_DAX_RICK_AND_MORTY.md
 
 # Pastas
 Design_Dash_Rick_and_Morty/
+claude/
+.claude/
+.measuare_json/
 
 # Arquivos Airflow
 .git
